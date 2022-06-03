@@ -1,0 +1,6 @@
+2022/05/30-11:43:30.949 2382 Creating DB /home/sirmmy/.config/google-chrome/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2022/05/30-11:43:31.094 2382 Reusing MANIFEST /home/sirmmy/.config/google-chrome/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/30-11:46:13.546 2524 Level-0 table #5: started
+2022/05/30-11:46:13.602 2524 Level-0 table #5: 27192 bytes OK
+2022/05/30-11:46:13.700 2524 Delete type=0 #3
+2022/05/30-11:46:13.701 2524 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,12 @@
+[2022-06-02T15:42:36.163Z] Validating found git in: git
+[2022-06-02T15:42:36.249Z] Using git 2.25.1 from git
+[2022-06-02T15:42:36.328Z] > git rev-parse --show-toplevel [47ms]
+[2022-06-02T15:42:36.353Z] > git rev-parse --git-dir --git-common-dir [10ms]
+[2022-06-02T15:42:36.365Z] Open repository: /home/sirmmy/Development/code/prework/phase-0/phase-0-css-intro-lab
+[2022-06-02T15:42:36.411Z] > git status -z -uall [30ms]
+[2022-06-02T15:42:36.424Z] > git symbolic-ref --short HEAD [3ms]
+[2022-06-02T15:42:36.440Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+[2022-06-02T15:42:36.845Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [386ms]
+[2022-06-02T15:42:37.110Z] > git remote --verbose [637ms]
+[2022-06-02T15:42:37.165Z] > git check-ignore -v -z --stdin [32ms]
+[2022-06-02T15:42:37.211Z] > git config --get commit.template [48ms]

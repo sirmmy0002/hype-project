@@ -1,0 +1,90 @@
+[2022-06-03 06:27:59.594] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c color.diff=false diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- style.css • bad revision '0000000000000000000000000000000000000000-' • 16 ms
+
+[2022-06-03 06:28:05.099] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 6,6:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 6,6:style.css • file style.css has only 5 lines • 11 ms
+
+[2022-06-03 06:28:05.347] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 11 ms
+
+[2022-06-03 06:28:14.252] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 10 ms
+
+[2022-06-03 06:28:33.412] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 13 ms
+
+[2022-06-03 06:28:47.083] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 13 ms
+
+[2022-06-03 06:28:54.584] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 9 ms
+
+[2022-06-03 06:29:04.705] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 14 ms
+
+[2022-06-03 06:29:24.347] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 8,8:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 8,8:style.css • file style.css has only 5 lines • 11 ms
+
+[2022-06-03 06:30:46.226] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 9 ms
+
+[2022-06-03 06:31:32.569] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 10 ms
+
+[2022-06-03 06:31:41.283] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 13 ms
+
+[2022-06-03 06:31:50.019] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 12 ms
+
+[2022-06-03 06:32:19.431] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 9 ms
+
+[2022-06-03 06:32:34.810] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 10 ms
+
+[2022-06-03 06:32:52.363] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 10 ms
+
+[2022-06-03 06:33:18.765] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 9 ms
+
+[2022-06-03 06:33:26.880] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 9 ms
+
+[2022-06-03 06:33:35.605] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 9 ms
+
+[2022-06-03 06:34:00.453] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 10 ms
+
+[2022-06-03 06:34:40.103] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 13 ms
+
+[2022-06-03 06:35:03.430] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 9 ms
+
+[2022-06-03 06:35:03.861] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 12,12:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 12,12:style.css • file style.css has only 5 lines • 9 ms
+
+[2022-06-03 06:35:41.286] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 10 ms
+
+[2022-06-03 06:36:00.384] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 11 ms
+
+[2022-06-03 06:37:21.212] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 12 ms
+
+[2022-06-03 06:37:31.394] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 10 ms
+
+[2022-06-03 06:37:34.148] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 21,21:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 21,21:style.css • file style.css has only 5 lines • 11 ms
+
+[2022-06-03 06:38:18.648] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 12 ms
+
+[2022-06-03 06:38:24.379] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 10 ms
+
+[2022-06-03 06:39:39.306] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 9 ms
+
+[2022-06-03 06:40:20.007] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 11 ms
+
+[2022-06-03 06:40:31.471] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 12 ms
+
+[2022-06-03 06:41:35.541] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 10 ms
+
+[2022-06-03 06:41:41.194] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 12 ms
+
+[2022-06-03 06:42:08.404] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 9 ms
+
+[2022-06-03 06:50:45.286] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 14 ms
+
+[2022-06-03 07:09:29.005] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 11 ms
+
+[2022-06-03 07:10:20.361] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 10 ms
+
+[2022-06-03 07:10:35.124] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 10 ms
+
+[2022-06-03 07:10:47.857] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 12 ms
+
+[2022-06-03 07:10:58.609] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 9 ms
+
+[2022-06-03 07:11:09.605] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 12 ms
+
+[2022-06-03 07:12:54.154] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 30,30:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 30,30:style.css • file style.css has only 5 lines • 10 ms
+
+[2022-06-03 07:13:09.009] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-fundamentals-lab] git log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 7,7:style.css • file style.css has only 5 lines • 10 ms
+

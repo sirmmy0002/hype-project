@@ -1,0 +1,29 @@
+[2022-06-02 11:27:07.699] [exthost] [info] Extension host with pid 119444 started
+[2022-06-02 11:27:07.699] [exthost] [info] Skipping acquiring lock for /home/sirmmy/.config/Code/User/workspaceStorage/550311730246597cd480e3da6c890a7e.
+[2022-06-02 11:27:07.949] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-06-02 11:27:08.003] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-06-02 11:27:08.056] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-02 11:27:08.068] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-02 11:27:08.072] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-02 11:27:08.078] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+[2022-06-02 11:27:08.122] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2022-06-02 11:27:08.136] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-06-02 11:27:08.159] [exthost] [info] ExtensionService#_doActivateExtension spywhere.guides, startup: true, activationEvent: '*'
+[2022-06-02 11:27:08.328] [exthost] [info] ExtensionService#_doActivateExtension wraith13.zoombar-vscode, startup: true, activationEvent: '*'
+[2022-06-02 11:27:08.339] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-06-02 11:27:08.558] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-02 11:27:08.593] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-02 11:27:08.883] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-06-02 11:27:08.966] [exthost] [info] Eager extensions activated
+[2022-06-02 11:27:09.022] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 11:27:09.072] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 11:27:09.075] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 11:27:09.087] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 11:27:09.236] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 11:27:09.267] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 11:27:12.448] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-02 11:27:12.452] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-02 11:27:12.472] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-02 11:58:49.824] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-06-02 11:58:49.896] [exthost] [warning] {"name":"Canceled"}
+[2022-06-02 11:58:49.898] [exthost] [info] Extension host with pid 119444 exiting with code 0

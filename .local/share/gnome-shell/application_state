@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="google-chrome.desktop" score="5960" last-seen="1654240563"/>
+    <application id="vlc_vlc.desktop" score="2" last-seen="1653743936"/>
+    <application id="chrome-ecgkcdgbckhpmefpbaekekbpnahdogip-Default.desktop" score="775" last-seen="1653771424"/>
+    <application id="software-properties-gtk.desktop" score="201" last-seen="1653988799"/>
+    <application id="org.gnome.Screenshot.desktop" score="4" last-seen="1654240711"/>
+    <application id="gnome-control-center.desktop" score="112" last-seen="1653988800"/>
+    <application id="org.gnome.gedit.desktop" score="3" last-seen="1654113067"/>
+    <application id="org.gnome.eog.desktop" score="31" last-seen="1653842267"/>
+    <application id="org.gnome.Nautilus.desktop" score="2105" last-seen="1654237008"/>
+    <application id="apport-gtk.desktop" score="1" last-seen="1654184589"/>
+    <application id="update-manager.desktop" score="9" last-seen="1653912951"/>
+    <application id="snap-store_ubuntu-software.desktop" score="91" last-seen="1653908827"/>
+    <application id="gnome-initial-setup.desktop" score="8" last-seen="1653739327"/>
+    <application id="brave_brave.desktop" score="11190" last-seen="1654240858"/>
+    <application id="firefox.desktop" score="31" last-seen="1653743173"/>
+    <application id="org.gnome.Terminal.desktop" score="4151" last-seen="1654240321"/>
+    <application id="org.gnome.baobab.desktop" score="0" last-seen="1653739473"/>
+    <application id="org.gnome.DiskUtility.desktop" score="0" last-seen="1653739462"/>
+    <application id="gnome-system-monitor.desktop" score="2" last-seen="1653742952"/>
+    <application id="code.desktop" score="8291" last-seen="1654240561"/>
+    <application id="yelp.desktop" score="0" last-seen="1653740397"/>
+    <application id="slack_slack.desktop" score="1176" last-seen="1654240885"/>
+  </context>
+</application-state>

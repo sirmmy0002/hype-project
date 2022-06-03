@@ -1,0 +1,31 @@
+[2022-06-03 09:09:15.098] [exthost] [info] Extension host with pid 172336 started
+[2022-06-03 09:09:15.098] [exthost] [info] Skipping acquiring lock for /home/sirmmy/.config/Code/User/workspaceStorage/9b412c788f6de40328dc051d294bf69c.
+[2022-06-03 09:09:15.509] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-06-03 09:09:15.544] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-03 09:09:15.547] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-03 09:09:15.551] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-03 09:09:15.555] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+[2022-06-03 09:09:15.596] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2022-06-03 09:09:15.610] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-06-03 09:09:15.654] [exthost] [info] ExtensionService#_doActivateExtension spywhere.guides, startup: true, activationEvent: '*'
+[2022-06-03 09:09:15.852] [exthost] [info] ExtensionService#_doActivateExtension wraith13.zoombar-vscode, startup: true, activationEvent: '*'
+[2022-06-03 09:09:15.866] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-06-03 09:09:16.036] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-03 09:09:16.094] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-03 09:09:16.365] [exthost] [info] Eager extensions activated
+[2022-06-03 09:09:16.423] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 09:09:16.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 09:09:16.437] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 09:09:16.443] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 09:09:16.526] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 09:09:16.551] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 09:09:16.808] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-06-03 09:09:19.213] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-03 09:09:19.217] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-03 09:09:19.238] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-03 09:15:45.246] [exthost] [error] Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:282:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2022-06-03 09:16:14.560] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-06-03 09:16:14.631] [exthost] [info] Extension host with pid 172336 exiting with code 0

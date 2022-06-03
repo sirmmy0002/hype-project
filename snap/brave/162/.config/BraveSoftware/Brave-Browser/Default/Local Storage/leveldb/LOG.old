@@ -1,0 +1,6 @@
+2022/06/01-23:54:44.196 5 Reusing MANIFEST /home/sirmmy/snap/brave/162/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2022/06/01-23:54:44.197 5 Recovering log #30
+2022/06/01-23:54:44.198 5 Reusing old log /home/sirmmy/snap/brave/162/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000030.log 
+2022/06/02-00:52:26.975 13 Level-0 table #35: started
+2022/06/02-00:52:27.048 13 Level-0 table #35: 16631 bytes OK
+2022/06/02-00:52:27.087 13 Delete type=0 #30

@@ -1,0 +1,27 @@
+2022/06/02-00:13:34.614 1b053 Reusing MANIFEST /home/sirmmy/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2022/06/02-00:13:34.615 1b053 Recovering log #231
+2022/06/02-00:13:34.687 1b053 Level-0 table #234: started
+2022/06/02-00:13:34.943 1b053 Level-0 table #234: 8090511 bytes OK
+2022/06/02-00:13:34.990 1b053 Delete type=0 #231
+2022/06/02-00:14:40.008 1b0e1 Level-0 table #237: started
+2022/06/02-00:14:40.033 1b053 Current memtable full; waiting...
+2022/06/02-00:14:40.218 1b0e1 Level-0 table #237: 8090601 bytes OK
+2022/06/02-00:14:40.267 1b0e1 Delete type=0 #235
+2022/06/02-00:14:40.270 1b0e1 Level-0 table #239: started
+2022/06/02-00:14:40.485 1b0e1 Level-0 table #239: 8090520 bytes OK
+2022/06/02-00:14:40.533 1b0e1 Delete type=0 #236
+2022/06/02-00:14:40.538 1b053 Compacting 5@0 + 2@1 files
+2022/06/02-00:14:40.831 1b053 Generated table #240@0: 1 keys, 8090520 bytes
+2022/06/02-00:14:40.887 1b053 Generated table #241@0: 5 keys, 374 bytes
+2022/06/02-00:14:40.888 1b053 Compacted 5@0 + 2@1 files => 8090894 bytes
+2022/06/02-00:14:40.931 1b053 compacted to: files[ 0 2 1 0 0 0 0 ]
+2022/06/02-00:14:40.931 1b053 Delete type=2 #232
+2022/06/02-00:14:40.931 1b053 Delete type=2 #226
+2022/06/02-00:14:40.931 1b053 Delete type=2 #227
+2022/06/02-00:14:40.931 1b053 Delete type=2 #229
+2022/06/02-00:14:40.931 1b053 Delete type=2 #239
+2022/06/02-00:14:40.931 1b053 Delete type=2 #237
+2022/06/02-00:14:40.931 1b053 Delete type=2 #234
+2022/06/02-00:21:14.393 1b0e1 Level-0 table #243: started
+2022/06/02-00:21:14.610 1b0e1 Level-0 table #243: 8090713 bytes OK
+2022/06/02-00:21:14.656 1b0e1 Delete type=0 #238

@@ -1,0 +1,50 @@
+[2022-05-31 14:35:27] alias_create_execute
+alias_create_execute () 
+{ 
+    for _path in "$rvm_rubies_path" "$rvm_gems_path" "$rvm_environments_path" "$rvm_wrappers_path";
+    do
+        if [[ -L "$_path/$alias_name" ]]; then
+            \command \rm -fv "$_path/$alias_name" || return $?;
+        fi;
+        \command \ln -fs "$_path/$rvm_ruby_string" "$_path/$alias_name" || return $?;
+    done;
+    __rvm_db_ "$rvm_path/config/alias" "$alias_name" "$rvm_ruby_string"
+}
+current path: /home/sirmmy
+GEM_PATH=/home/sirmmy/.rvm/gems/ruby-2.7.4:/home/sirmmy/.rvm/gems/ruby-2.7.4@global
+GEM_HOME=/home/sirmmy/.rvm/gems/ruby-2.7.4
+PATH=/home/sirmmy/.rvm/gems/ruby-2.7.4/bin:/home/sirmmy/.rvm/gems/ruby-2.7.4@global/bin:/home/sirmmy/.rvm/rubies/ruby-2.7.4/bin:/home/sirmmy/.rvm/bin:/home/sirmmy/.nvm/versions/node/v16.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+command(1): alias_create_execute
++ for _path in "$rvm_rubies_path" "$rvm_gems_path" "$rvm_environments_path" "$rvm_wrappers_path"
++ [[ -L /home/sirmmy/.rvm/rubies/default ]]
++ command ln -fs /home/sirmmy/.rvm/rubies/ruby-2.7.4 /home/sirmmy/.rvm/rubies/default
++ ln -fs /home/sirmmy/.rvm/rubies/ruby-2.7.4 /home/sirmmy/.rvm/rubies/default
++ for _path in "$rvm_rubies_path" "$rvm_gems_path" "$rvm_environments_path" "$rvm_wrappers_path"
++ [[ -L /home/sirmmy/.rvm/gems/default ]]
++ command ln -fs /home/sirmmy/.rvm/gems/ruby-2.7.4 /home/sirmmy/.rvm/gems/default
++ ln -fs /home/sirmmy/.rvm/gems/ruby-2.7.4 /home/sirmmy/.rvm/gems/default
++ for _path in "$rvm_rubies_path" "$rvm_gems_path" "$rvm_environments_path" "$rvm_wrappers_path"
++ [[ -L /home/sirmmy/.rvm/environments/default ]]
++ command ln -fs /home/sirmmy/.rvm/environments/ruby-2.7.4 /home/sirmmy/.rvm/environments/default
++ ln -fs /home/sirmmy/.rvm/environments/ruby-2.7.4 /home/sirmmy/.rvm/environments/default
++ for _path in "$rvm_rubies_path" "$rvm_gems_path" "$rvm_environments_path" "$rvm_wrappers_path"
++ [[ -L /home/sirmmy/.rvm/wrappers/default ]]
++ command ln -fs /home/sirmmy/.rvm/wrappers/ruby-2.7.4 /home/sirmmy/.rvm/wrappers/default
++ ln -fs /home/sirmmy/.rvm/wrappers/ruby-2.7.4 /home/sirmmy/.rvm/wrappers/default
++ __rvm_db_ /home/sirmmy/.rvm/config/alias default ruby-2.7.4
++ typeset __db __key __value
++ __db=/home/sirmmy/.rvm/config/alias
++ __key=default
++ shift 2
++ __value=ruby-2.7.4
++ case "${__value}" in
++ __rvm_db_add /home/sirmmy/.rvm/config/alias default ruby-2.7.4
++ typeset __dir=/home/sirmmy/.rvm/config
++ [[ -f /home/sirmmy/.rvm/config/alias ]]
++ __rvm_db_remove /home/sirmmy/.rvm/config/alias default
++ [[ -f /home/sirmmy/.rvm/config/alias ]]
++ __rvm_sed -e '\#^default=# d' -e '/^$/d' /home/sirmmy/.rvm/config/alias
++ sed -e '\#^default=# d' -e '/^$/d' /home/sirmmy/.rvm/config/alias
++ command mv -f /home/sirmmy/.rvm/config/alias.new /home/sirmmy/.rvm/config/alias
++ mv -f /home/sirmmy/.rvm/config/alias.new /home/sirmmy/.rvm/config/alias
++ printf '%b=%b\n' default ruby-2.7.4

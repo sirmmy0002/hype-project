@@ -1,0 +1,2 @@
+[2022-06-02 15:16:05.110] [GIT  ] [/home/sirmmy/Development/code/prework/phase-0/phase-0-css-intro-lab] git diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- index.html • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c color.diff=false diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- index.html • bad revision '0000000000000000000000000000000000000000-' • 15 ms
+

@@ -1,0 +1,24 @@
+[2022-06-02 18:42:51.070] [renderer1] [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/sirmmy/Development/code/prework/phase-0/phase-0-css-intro-lab)
+[2022-06-02 18:42:51.083] [renderer1] [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[2022-06-02 18:43:00.821] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code undefined, signal: SIGTRAP
+[2022-06-02 18:43:01.072] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/sirmmy/Development/code/prework/phase-0/phase-0-css-intro-lab)
+[2022-06-02 18:43:01.073] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-06-02 18:43:01.399] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/sirmmy/Development/code/prework/phase-0/phase-0-css-intro-lab)
+[2022-06-02 18:43:01.406] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-06-02 18:43:01.632] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/sirmmy/Development/code/prework/phase-0/phase-0-css-intro-lab)
+[2022-06-02 18:43:01.636] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-06-02 18:43:01.878] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/sirmmy/Development/code/prework/phase-0/phase-0-css-intro-lab)
+[2022-06-02 18:43:01.878] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-06-02 18:43:02.091] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/sirmmy/Development/code/prework/phase-0/phase-0-css-intro-lab)
+[2022-06-02 18:43:02.096] [renderer1] [error] [File Watcher (universal)] gave up attempting to restart watcher after error: Bad file descriptor
+[2022-06-02 18:43:27.974] [renderer1] [error] [Extension Host] Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:282:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2022-06-02 18:43:27.975] [renderer1] [error] [Extension Host] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/share/code/resources/app/out/bootstrap.js:1:407)
+    at process.emit (node:events:390:28)
+[2022-06-02 18:43:28.977] [renderer1] [error] spawn git ENOENT: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:282:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)

@@ -1,0 +1,21 @@
+2022/06/03-08:19:45.936 297b5 Reusing MANIFEST /home/sirmmy/snap/slack/62/.config/Slack/Local Storage/leveldb/MANIFEST-000001
+2022/06/03-08:19:45.937 297b5 Recovering log #45
+2022/06/03-08:19:45.937 297b5 Reusing old log /home/sirmmy/snap/slack/62/.config/Slack/Local Storage/leveldb/000045.log 
+2022/06/03-08:46:46.693 29a3c Level-0 table #49: started
+2022/06/03-08:46:46.766 29a3c Level-0 table #49: 12079 bytes OK
+2022/06/03-08:46:46.809 29a3c Delete type=0 #45
+2022/06/03-08:46:46.809 29a3c Compacting 4@0 + 1@1 files
+2022/06/03-08:46:46.855 29a3c Generated table #50@0: 10 keys, 4419 bytes
+2022/06/03-08:46:46.855 29a3c Compacted 4@0 + 1@1 files => 4419 bytes
+2022/06/03-08:46:46.897 29a3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/06/03-08:46:46.898 29a3c Delete type=2 #40
+2022/06/03-08:46:46.898 29a3c Delete type=2 #46
+2022/06/03-08:46:46.898 29a3c Delete type=2 #44
+2022/06/03-08:46:46.898 29a3c Delete type=2 #42
+2022/06/03-08:46:46.898 29a3c Delete type=2 #49
+2022/06/03-09:13:46.694 2a3f3 Level-0 table #52: started
+2022/06/03-09:13:46.762 2a3f3 Level-0 table #52: 11731 bytes OK
+2022/06/03-09:13:46.807 2a3f3 Delete type=0 #48
+2022/06/03-09:56:46.691 2b303 Level-0 table #54: started
+2022/06/03-09:56:46.757 2b303 Level-0 table #54: 12136 bytes OK
+2022/06/03-09:56:46.801 2b303 Delete type=0 #51

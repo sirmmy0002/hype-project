@@ -1,0 +1,1254 @@
+[ 25692.373] (--) Log file renamed from "/home/sirmmy/.local/share/xorg/Xorg.pid-50023.log" to "/home/sirmmy/.local/share/xorg/Xorg.0.log"
+[ 25692.374] 
+X.Org X Server 1.20.13
+X Protocol Version 11, Revision 0
+[ 25692.374] Build Operating System: linux Ubuntu
+[ 25692.374] Current Operating System: Linux Sirmmy 5.13.0-44-generic #49~20.04.1-Ubuntu SMP Wed May 18 18:44:28 UTC 2022 x86_64
+[ 25692.374] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.13.0-44-generic root=UUID=8720873b-b8a9-47de-8863-aac81bdbc91e ro quiet splash vt.handoff=7
+[ 25692.374] Build Date: 14 December 2021  02:14:13PM
+[ 25692.374] xorg-server 2:1.20.13-1ubuntu1~20.04.2 (For technical support please see http://www.ubuntu.com/support) 
+[ 25692.374] Current version of pixman: 0.38.4
+[ 25692.374] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[ 25692.374] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[ 25692.374] (==) Log file: "/home/sirmmy/.local/share/xorg/Xorg.0.log", Time: Tue May 31 14:37:18 2022
+[ 25692.374] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[ 25692.374] (==) No Layout section.  Using the first Screen section.
+[ 25692.374] (==) No screen section available. Using defaults.
+[ 25692.374] (**) |-->Screen "Default Screen Section" (0)
+[ 25692.374] (**) |   |-->Monitor "<default monitor>"
+[ 25692.375] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[ 25692.375] (==) Automatically adding devices
+[ 25692.375] (==) Automatically enabling devices
+[ 25692.375] (==) Automatically adding GPU devices
+[ 25692.375] (==) Automatically binding GPU devices
+[ 25692.375] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[ 25692.375] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[ 25692.375] 	Entry deleted from font path.
+[ 25692.375] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[ 25692.375] 	Entry deleted from font path.
+[ 25692.375] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[ 25692.375] 	Entry deleted from font path.
+[ 25692.375] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[ 25692.375] 	Entry deleted from font path.
+[ 25692.375] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[ 25692.375] 	Entry deleted from font path.
+[ 25692.375] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[ 25692.375] (==) ModulePath set to "/usr/lib/xorg/modules"
+[ 25692.375] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[ 25692.375] (II) Loader magic: 0x55960245b020
+[ 25692.375] (II) Module ABI versions:
+[ 25692.375] 	X.Org ANSI C Emulation: 0.4
+[ 25692.375] 	X.Org Video Driver: 24.1
+[ 25692.375] 	X.Org XInput driver : 24.1
+[ 25692.375] 	X.Org Server Extension : 10.0
+[ 25692.378] (++) using VT number 2
+
+[ 25692.380] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_329
+[ 25692.382] (II) xfree86: Adding drm device (/dev/dri/card0)
+[ 25692.382] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+[ 25692.386] (--) PCI:*(0@0:2:0) 8086:0a16:103c:2246 rev 11, Mem @ 0xc0000000/4194304, 0xb0000000/268435456, I/O @ 0x00007000/64, BIOS @ 0x????????/131072
+[ 25692.386] (II) LoadModule: "glx"
+[ 25692.386] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[ 25692.387] (II) Module glx: vendor="X.Org Foundation"
+[ 25692.387] 	compiled for 1.20.13, module version = 1.0.0
+[ 25692.387] 	ABI class: X.Org Server Extension, version 10.0
+[ 25692.387] (==) Matched modesetting as autoconfigured driver 0
+[ 25692.387] (==) Matched fbdev as autoconfigured driver 1
+[ 25692.387] (==) Matched vesa as autoconfigured driver 2
+[ 25692.387] (==) Assigned the driver to the xf86ConfigLayout
+[ 25692.387] (II) LoadModule: "modesetting"
+[ 25692.388] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[ 25692.388] (II) Module modesetting: vendor="X.Org Foundation"
+[ 25692.388] 	compiled for 1.20.13, module version = 1.20.13
+[ 25692.388] 	Module class: X.Org Video Driver
+[ 25692.388] 	ABI class: X.Org Video Driver, version 24.1
+[ 25692.388] (II) LoadModule: "fbdev"
+[ 25692.388] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[ 25692.388] (II) Module fbdev: vendor="X.Org Foundation"
+[ 25692.388] 	compiled for 1.20.1, module version = 0.5.0
+[ 25692.388] 	Module class: X.Org Video Driver
+[ 25692.388] 	ABI class: X.Org Video Driver, version 24.0
+[ 25692.388] (II) LoadModule: "vesa"
+[ 25692.388] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[ 25692.388] (II) Module vesa: vendor="X.Org Foundation"
+[ 25692.388] 	compiled for 1.20.4, module version = 2.4.0
+[ 25692.388] 	Module class: X.Org Video Driver
+[ 25692.388] 	ABI class: X.Org Video Driver, version 24.0
+[ 25692.388] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[ 25692.388] (II) FBDEV: driver for framebuffer: fbdev
+[ 25692.389] (II) VESA: driver for VESA chipsets: vesa
+[ 25692.389] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[ 25692.389] (II) modeset(0): using drv /dev/dri/card0
+[ 25692.389] (WW) Falling back to old probe method for fbdev
+[ 25692.389] (II) Loading sub module "fbdevhw"
+[ 25692.389] (II) LoadModule: "fbdevhw"
+[ 25692.389] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[ 25692.389] (II) Module fbdevhw: vendor="X.Org Foundation"
+[ 25692.389] 	compiled for 1.20.13, module version = 0.0.2
+[ 25692.389] 	ABI class: X.Org Video Driver, version 24.1
+[ 25692.389] (EE) open /dev/fb0: Permission denied
+[ 25692.389] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[ 25692.389] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[ 25692.389] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[ 25692.389] (==) modeset(0): RGB weight 888
+[ 25692.389] (==) modeset(0): Default visual is TrueColor
+[ 25692.389] (II) Loading sub module "glamoregl"
+[ 25692.389] (II) LoadModule: "glamoregl"
+[ 25692.389] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[ 25692.394] (II) Module glamoregl: vendor="X.Org Foundation"
+[ 25692.394] 	compiled for 1.20.13, module version = 1.0.1
+[ 25692.394] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[ 25692.417] (II) modeset(0): glamor X acceleration enabled on Mesa DRI Intel(R) HD Graphics 4400 (HSW GT2)
+[ 25692.417] (II) modeset(0): glamor initialized
+[ 25692.421] (II) modeset(0): Output eDP-1 has no monitor section
+[ 25692.423] (II) modeset(0): Output HDMI-1 has no monitor section
+[ 25692.423] (II) modeset(0): Output DP-1 has no monitor section
+[ 25692.424] (II) modeset(0): Output HDMI-2 has no monitor section
+[ 25692.429] (II) modeset(0): EDID for output eDP-1
+[ 25692.429] (II) modeset(0): Manufacturer: LGD  Model: 354  Serial#: 0
+[ 25692.429] (II) modeset(0): Year: 2012  Week: 0
+[ 25692.429] (II) modeset(0): EDID Version: 1.4
+[ 25692.429] (II) modeset(0): Digital Display Input
+[ 25692.429] (II) modeset(0): 6 bits per channel
+[ 25692.430] (II) modeset(0): Digital interface is undefined
+[ 25692.430] (II) modeset(0): Max Image Size [cm]: horiz.: 29  vert.: 17
+[ 25692.430] (II) modeset(0): Gamma: 2.20
+[ 25692.430] (II) modeset(0): No DPMS capabilities specified
+[ 25692.430] (II) modeset(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[ 25692.430] (II) modeset(0): First detailed timing is preferred mode
+[ 25692.430] (II) modeset(0): Preferred mode is native pixel format and refresh rate
+[ 25692.430] (II) modeset(0): redX: 0.589 redY: 0.347   greenX: 0.343 greenY: 0.555
+[ 25692.430] (II) modeset(0): blueX: 0.160 blueY: 0.124   whiteX: 0.313 whiteY: 0.329
+[ 25692.430] (II) modeset(0): Manufacturer's mask: 0
+[ 25692.430] (II) modeset(0): Supported detailed timing:
+[ 25692.430] (II) modeset(0): clock: 72.3 MHz   Image Size:  293 x 165 mm
+[ 25692.430] (II) modeset(0): h_active: 1366  h_sync: 1402  h_sync_end 1442 h_blank_end 1526 h_border: 0
+[ 25692.430] (II) modeset(0): v_active: 768  v_sync: 771  v_sync_end 776 v_blanking: 790 v_border: 0
+[ 25692.430] (II) modeset(0): Supported detailed timing:
+[ 25692.430] (II) modeset(0): clock: 48.2 MHz   Image Size:  293 x 165 mm
+[ 25692.430] (II) modeset(0): h_active: 1366  h_sync: 1402  h_sync_end 1442 h_blank_end 1526 h_border: 0
+[ 25692.430] (II) modeset(0): v_active: 768  v_sync: 771  v_sync_end 776 v_blanking: 790 v_border: 0
+[ 25692.430] (II) modeset(0): Unknown vendor-specific block 2
+[ 25692.430] (II) modeset(0): EDID (in hex):
+[ 25692.430] (II) modeset(0): 	00ffffffffffff0030e4540300000000
+[ 25692.430] (II) modeset(0): 	00160104901d11780afc359658578e29
+[ 25692.430] (II) modeset(0): 	1f505400000001010101010101010101
+[ 25692.430] (II) modeset(0): 	0101010101013e1c56a0500016302428
+[ 25692.430] (II) modeset(0): 	350025a510000019d41256a050001630
+[ 25692.430] (II) modeset(0): 	2428350025a510000019000000000000
+[ 25692.430] (II) modeset(0): 	00000000000000000000000000000002
+[ 25692.430] (II) modeset(0): 	000c3dff0a3c64121222640000000062
+[ 25692.431] (II) modeset(0): Printing probed modes for output eDP-1
+[ 25692.431] (II) modeset(0): Modeline "1366x768"x60.0   72.30  1366 1402 1442 1526  768 771 776 790 -hsync -vsync (47.4 kHz eP)
+[ 25692.431] (II) modeset(0): Modeline "1366x768"x40.0   48.20  1366 1402 1442 1526  768 771 776 790 -hsync -vsync (31.6 kHz e)
+[ 25692.431] (II) modeset(0): Modeline "1360x768"x59.8   84.75  1360 1432 1568 1776  768 771 781 798 -hsync +vsync (47.7 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "1360x768"x60.0   72.00  1360 1408 1440 1520  768 771 781 790 +hsync -vsync (47.4 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "1280x720"x120.0  156.12  1280 1376 1512 1744  720 721 724 746 doublescan -hsync +vsync (89.5 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "1280x720"x120.0  120.75  1280 1304 1320 1360  720 721 724 740 doublescan +hsync -vsync (88.8 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "1280x720"x59.9   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync (44.8 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "1280x720"x59.7   63.75  1280 1328 1360 1440  720 723 728 741 +hsync -vsync (44.3 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "1024x768"x120.1  133.47  1024 1100 1212 1400  768 768 770 794 doublescan -hsync +vsync (95.3 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "960x720"x120.0  117.00  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (90.0 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "928x696"x120.1  109.15  928 976 1088 1264  696 696 698 719 doublescan -hsync +vsync (86.4 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "896x672"x120.0  102.40  896 960 1060 1224  672 672 674 697 doublescan -hsync +vsync (83.7 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "1024x576"x119.9   98.50  1024 1092 1200 1376  576 577 580 597 doublescan -hsync +vsync (71.6 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "1024x576"x119.9   78.38  1024 1048 1064 1104  576 577 580 592 doublescan +hsync -vsync (71.0 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "1024x576"x59.9   46.50  1024 1064 1160 1296  576 579 584 599 -hsync +vsync (35.9 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "1024x576"x59.8   42.00  1024 1072 1104 1184  576 579 584 593 +hsync -vsync (35.5 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "960x600"x119.9   96.62  960 1028 1128 1296  600 601 604 622 doublescan -hsync +vsync (74.6 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "960x600"x120.0   77.00  960 984 1000 1040  600 601 604 617 doublescan +hsync -vsync (74.0 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "960x540"x119.9   86.50  960 1024 1124 1288  540 541 544 560 doublescan -hsync +vsync (67.2 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "960x540"x120.0   69.25  960 984 1000 1040  540 541 544 555 doublescan +hsync -vsync (66.6 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "960x540"x59.6   40.75  960 992 1088 1216  540 543 548 562 -hsync +vsync (33.5 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "960x540"x59.8   37.25  960 1008 1040 1120  540 543 548 556 +hsync -vsync (33.3 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "800x600"x120.0   81.00  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (75.0 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "840x525"x120.0   73.12  840 892 980 1120  525 526 529 544 doublescan -hsync +vsync (65.3 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "840x525"x119.8   59.50  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (64.7 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "864x486"x59.9   32.50  864 888 968 1072  486 489 494 506 -hsync +vsync (30.3 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "864x486"x59.6   30.50  864 912 944 1024  486 489 494 500 +hsync -vsync (29.8 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "800x512"x120.3   51.56  800 800 828 832  512 512 514 515 doublescan +hsync +vsync (62.0 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "700x525"x120.0   61.00  700 744 820 940  525 526 532 541 doublescan +hsync +vsync (64.9 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "800x450"x119.9   59.12  800 848 928 1056  450 451 454 467 doublescan -hsync +vsync (56.0 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "800x450"x119.6   48.75  800 824 840 880  450 451 454 463 doublescan +hsync -vsync (55.4 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "640x512"x120.0   54.00  640 664 720 844  512 512 514 533 doublescan +hsync +vsync (64.0 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "720x450"x119.8   53.25  720 760 836 952  450 451 454 467 doublescan -hsync +vsync (55.9 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "700x450"x119.9   51.75  700 740 812 924  450 451 456 467 doublescan -hsync +vsync (56.0 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "700x450"x119.8   43.25  700 724 740 780  450 451 456 463 doublescan +hsync -vsync (55.4 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "640x480"x120.0   54.00  640 688 744 900  480 480 482 500 doublescan +hsync +vsync (60.0 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "720x405"x59.5   22.50  720 744 808 896  405 408 413 422 -hsync +vsync (25.1 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "720x405"x59.0   21.75  720 768 800 880  405 408 413 419 +hsync -vsync (24.7 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "684x384"x119.8   42.62  684 720 788 892  384 385 390 399 doublescan -hsync +vsync (47.8 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "684x384"x119.7   36.12  684 708 724 764  384 385 390 395 doublescan +hsync -vsync (47.3 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "680x384"x119.6   42.38  680 716 784 888  384 385 390 399 doublescan -hsync +vsync (47.7 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "680x384"x119.9   36.00  680 704 720 760  384 385 390 395 doublescan +hsync -vsync (47.4 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "640x400"x119.8   41.75  640 676 740 840  400 401 404 415 doublescan -hsync +vsync (49.7 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "640x400"x120.0   35.50  640 664 680 720  400 401 404 411 doublescan +hsync -vsync (49.3 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "576x432"x120.1   40.81  576 608 668 760  432 432 434 447 doublescan -hsync +vsync (53.7 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "640x360"x119.7   37.25  640 672 736 832  360 361 364 374 doublescan -hsync +vsync (44.8 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "640x360"x119.7   31.88  640 664 680 720  360 361 364 370 doublescan +hsync -vsync (44.3 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "640x360"x59.8   18.00  640 664 720 800  360 363 368 376 -hsync +vsync (22.5 kHz d)
+[ 25692.431] (II) modeset(0): Modeline "640x360"x59.3   17.75  640 688 720 800  360 363 368 374 +hsync -vsync (22.2 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "512x384"x120.0   32.50  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (48.4 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "512x288"x120.0   23.25  512 532 580 648  288 289 292 299 doublescan -hsync +vsync (35.9 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "512x288"x119.8   21.00  512 536 552 592  288 289 292 296 doublescan +hsync -vsync (35.5 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "480x270"x119.3   20.38  480 496 544 608  270 271 274 281 doublescan -hsync +vsync (33.5 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "480x270"x119.6   18.62  480 504 520 560  270 271 274 278 doublescan +hsync -vsync (33.3 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "400x300"x120.6   20.00  400 420 484 528  300 300 302 314 doublescan +hsync +vsync (37.9 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "400x300"x112.7   18.00  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (35.2 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "432x243"x119.8   16.25  432 444 484 536  243 244 247 253 doublescan -hsync +vsync (30.3 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "432x243"x119.1   15.25  432 456 472 512  243 244 247 250 doublescan +hsync -vsync (29.8 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "320x240"x120.1   12.59  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (31.5 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "360x202"x119.0   11.25  360 372 404 448  202 204 206 211 doublescan -hsync +vsync (25.1 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "360x202"x118.3   10.88  360 384 400 440  202 204 206 209 doublescan +hsync -vsync (24.7 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "320x180"x119.7    9.00  320 332 360 400  180 181 184 188 doublescan -hsync +vsync (22.5 kHz d)
+[ 25692.432] (II) modeset(0): Modeline "320x180"x118.6    8.88  320 344 360 400  180 181 184 187 doublescan +hsync -vsync (22.2 kHz d)
+[ 25692.433] (II) modeset(0): EDID for output HDMI-1
+[ 25692.433] (II) modeset(0): EDID for output DP-1
+[ 25692.435] (II) modeset(0): EDID for output HDMI-2
+[ 25692.435] (II) modeset(0): Output eDP-1 connected
+[ 25692.435] (II) modeset(0): Output HDMI-1 disconnected
+[ 25692.435] (II) modeset(0): Output DP-1 disconnected
+[ 25692.435] (II) modeset(0): Output HDMI-2 disconnected
+[ 25692.435] (II) modeset(0): Using exact sizes for initial modes
+[ 25692.435] (II) modeset(0): Output eDP-1 using initial mode 1366x768 +0+0
+[ 25692.435] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[ 25692.435] (==) modeset(0): DPI set to (96, 96)
+[ 25692.435] (II) Loading sub module "fb"
+[ 25692.435] (II) LoadModule: "fb"
+[ 25692.435] (II) Loading /usr/lib/xorg/modules/libfb.so
+[ 25692.435] (II) Module fb: vendor="X.Org Foundation"
+[ 25692.435] 	compiled for 1.20.13, module version = 1.0.0
+[ 25692.435] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[ 25692.435] (II) UnloadModule: "fbdev"
+[ 25692.435] (II) Unloading fbdev
+[ 25692.435] (II) UnloadSubModule: "fbdevhw"
+[ 25692.435] (II) Unloading fbdevhw
+[ 25692.435] (II) UnloadModule: "vesa"
+[ 25692.435] (II) Unloading vesa
+[ 25692.445] (==) modeset(0): Backing store enabled
+[ 25692.445] (==) modeset(0): Silken mouse enabled
+[ 25692.527] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[ 25692.527] (==) modeset(0): DPMS enabled
+[ 25692.527] (II) modeset(0): [DRI2] Setup complete
+[ 25692.527] (II) modeset(0): [DRI2]   DRI driver: i965
+[ 25692.527] (II) modeset(0): [DRI2]   VDPAU driver: va_gl
+[ 25692.527] (II) Initializing extension Generic Event Extension
+[ 25692.528] (II) Initializing extension SHAPE
+[ 25692.528] (II) Initializing extension MIT-SHM
+[ 25692.528] (II) Initializing extension XInputExtension
+[ 25692.528] (II) Initializing extension XTEST
+[ 25692.529] (II) Initializing extension BIG-REQUESTS
+[ 25692.529] (II) Initializing extension SYNC
+[ 25692.529] (II) Initializing extension XKEYBOARD
+[ 25692.529] (II) Initializing extension XC-MISC
+[ 25692.529] (II) Initializing extension SECURITY
+[ 25692.530] (II) Initializing extension XFIXES
+[ 25692.530] (II) Initializing extension RENDER
+[ 25692.530] (II) Initializing extension RANDR
+[ 25692.531] (II) Initializing extension COMPOSITE
+[ 25692.531] (II) Initializing extension DAMAGE
+[ 25692.532] (II) Initializing extension MIT-SCREEN-SAVER
+[ 25692.532] (II) Initializing extension DOUBLE-BUFFER
+[ 25692.532] (II) Initializing extension RECORD
+[ 25692.532] (II) Initializing extension DPMS
+[ 25692.533] (II) Initializing extension Present
+[ 25692.533] (II) Initializing extension DRI3
+[ 25692.533] (II) Initializing extension X-Resource
+[ 25692.534] (II) Initializing extension XVideo
+[ 25692.534] (II) Initializing extension XVideo-MotionCompensation
+[ 25692.534] (II) Initializing extension SELinux
+[ 25692.534] (II) SELinux: Disabled on system
+[ 25692.534] (II) Initializing extension GLX
+[ 25692.538] (II) AIGLX: Loaded and initialized i965
+[ 25692.538] (II) GLX: Initialized DRI2 GL provider for screen 0
+[ 25692.538] (II) Initializing extension XFree86-VidModeExtension
+[ 25692.539] (II) Initializing extension XFree86-DGA
+[ 25692.539] (II) Initializing extension XFree86-DRI
+[ 25692.539] (II) Initializing extension DRI2
+[ 25692.540] (II) modeset(0): Damage tracking initialized
+[ 25692.540] (II) modeset(0): Setting screen physical size to 361 x 203
+[ 25692.599] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[ 25692.599] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[ 25692.599] (II) LoadModule: "libinput"
+[ 25692.600] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[ 25692.602] (II) Module libinput: vendor="X.Org Foundation"
+[ 25692.602] 	compiled for 1.20.4, module version = 0.29.0
+[ 25692.602] 	Module class: X.Org XInput Driver
+[ 25692.602] 	ABI class: X.Org XInput driver, version 24.1
+[ 25692.602] (II) Using input driver 'libinput' for 'Power Button'
+[ 25692.603] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 22 paused 0
+[ 25692.603] (**) Power Button: always reports core events
+[ 25692.603] (**) Option "Device" "/dev/input/event2"
+[ 25692.603] (**) Option "_source" "server/udev"
+[ 25692.606] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 25692.606] (II) event2  - Power Button: device is a keyboard
+[ 25692.607] (II) event2  - Power Button: device removed
+[ 25692.607] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
+[ 25692.607] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[ 25692.607] (**) Option "xkb_model" "pc105"
+[ 25692.607] (**) Option "xkb_layout" "us"
+[ 25692.609] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 25692.609] (II) event2  - Power Button: device is a keyboard
+[ 25692.610] (II) config/udev: Adding input device Video Bus (/dev/input/event10)
+[ 25692.610] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[ 25692.610] (II) Using input driver 'libinput' for 'Video Bus'
+[ 25692.611] (II) systemd-logind: got fd for /dev/input/event10 13:74 fd 25 paused 0
+[ 25692.611] (**) Video Bus: always reports core events
+[ 25692.611] (**) Option "Device" "/dev/input/event10"
+[ 25692.611] (**) Option "_source" "server/udev"
+[ 25692.613] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[ 25692.613] (II) event10 - Video Bus: device is a keyboard
+[ 25692.613] (II) event10 - Video Bus: device removed
+[ 25692.613] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input17/event10"
+[ 25692.613] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[ 25692.613] (**) Option "xkb_model" "pc105"
+[ 25692.613] (**) Option "xkb_layout" "us"
+[ 25692.615] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[ 25692.615] (II) event10 - Video Bus: device is a keyboard
+[ 25692.616] (II) config/udev: Adding input device Lid Switch (/dev/input/event1)
+[ 25692.616] (II) No input driver specified, ignoring this device.
+[ 25692.616] (II) This device may have been added with another device file.
+[ 25692.617] (II) config/udev: Adding input device Sleep Button (/dev/input/event0)
+[ 25692.617] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[ 25692.617] (II) Using input driver 'libinput' for 'Sleep Button'
+[ 25692.618] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 26 paused 0
+[ 25692.618] (**) Sleep Button: always reports core events
+[ 25692.618] (**) Option "Device" "/dev/input/event0"
+[ 25692.618] (**) Option "_source" "server/udev"
+[ 25692.619] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[ 25692.619] (II) event0  - Sleep Button: device is a keyboard
+[ 25692.619] (II) event0  - Sleep Button: device removed
+[ 25692.620] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0/event0"
+[ 25692.620] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 8)
+[ 25692.620] (**) Option "xkb_model" "pc105"
+[ 25692.620] (**) Option "xkb_layout" "us"
+[ 25692.621] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[ 25692.621] (II) event0  - Sleep Button: device is a keyboard
+[ 25692.622] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=3 (/dev/input/event12)
+[ 25692.622] (II) No input driver specified, ignoring this device.
+[ 25692.622] (II) This device may have been added with another device file.
+[ 25692.623] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=7 (/dev/input/event13)
+[ 25692.623] (II) No input driver specified, ignoring this device.
+[ 25692.623] (II) This device may have been added with another device file.
+[ 25692.623] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=8 (/dev/input/event14)
+[ 25692.623] (II) No input driver specified, ignoring this device.
+[ 25692.623] (II) This device may have been added with another device file.
+[ 25692.624] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=9 (/dev/input/event15)
+[ 25692.624] (II) No input driver specified, ignoring this device.
+[ 25692.624] (II) This device may have been added with another device file.
+[ 25692.625] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=10 (/dev/input/event16)
+[ 25692.625] (II) No input driver specified, ignoring this device.
+[ 25692.625] (II) This device may have been added with another device file.
+[ 25692.626] (II) config/udev: Adding input device 2.4G Mouse (/dev/input/event5)
+[ 25692.626] (II) No input driver specified, ignoring this device.
+[ 25692.626] (II) This device may have been added with another device file.
+[ 25692.627] (II) config/udev: Adding input device 2.4G Mouse (/dev/input/event6)
+[ 25692.627] (**) 2.4G Mouse: Applying InputClass "libinput pointer catchall"
+[ 25692.627] (II) Using input driver 'libinput' for '2.4G Mouse'
+[ 25692.685] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 27 paused 0
+[ 25692.685] (**) 2.4G Mouse: always reports core events
+[ 25692.685] (**) Option "Device" "/dev/input/event6"
+[ 25692.685] (**) Option "_source" "server/udev"
+[ 25692.687] (II) event6  - 2.4G Mouse: is tagged by udev as: Mouse
+[ 25692.687] (II) event6  - 2.4G Mouse: device is a pointer
+[ 25692.687] (II) event6  - 2.4G Mouse: device removed
+[ 25692.687] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1EA7:0064.0002/input/input51/event6"
+[ 25692.687] (II) XINPUT: Adding extended input device "2.4G Mouse" (type: MOUSE, id 9)
+[ 25692.687] (**) Option "AccelerationScheme" "none"
+[ 25692.687] (**) 2.4G Mouse: (accel) selected scheme none/0
+[ 25692.687] (**) 2.4G Mouse: (accel) acceleration factor: 2.000
+[ 25692.687] (**) 2.4G Mouse: (accel) acceleration threshold: 4
+[ 25692.689] (II) event6  - 2.4G Mouse: is tagged by udev as: Mouse
+[ 25692.689] (II) event6  - 2.4G Mouse: device is a pointer
+[ 25692.690] (II) config/udev: Adding input device 2.4G Mouse (/dev/input/mouse1)
+[ 25692.690] (II) No input driver specified, ignoring this device.
+[ 25692.690] (II) This device may have been added with another device file.
+[ 25692.691] (II) config/udev: Adding input device HP HD Webcam: HP HD Webcam (/dev/input/event11)
+[ 25692.691] (**) HP HD Webcam: HP HD Webcam: Applying InputClass "libinput keyboard catchall"
+[ 25692.691] (II) Using input driver 'libinput' for 'HP HD Webcam: HP HD Webcam'
+[ 25692.692] (II) systemd-logind: got fd for /dev/input/event11 13:75 fd 28 paused 0
+[ 25692.692] (**) HP HD Webcam: HP HD Webcam: always reports core events
+[ 25692.692] (**) Option "Device" "/dev/input/event11"
+[ 25692.692] (**) Option "_source" "server/udev"
+[ 25692.694] (II) event11 - HP HD Webcam: HP HD Webcam: is tagged by udev as: Keyboard
+[ 25692.694] (II) event11 - HP HD Webcam: HP HD Webcam: device is a keyboard
+[ 25692.694] (II) event11 - HP HD Webcam: HP HD Webcam: device removed
+[ 25692.694] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.0/input/input18/event11"
+[ 25692.694] (II) XINPUT: Adding extended input device "HP HD Webcam: HP HD Webcam" (type: KEYBOARD, id 10)
+[ 25692.694] (**) Option "xkb_model" "pc105"
+[ 25692.694] (**) Option "xkb_layout" "us"
+[ 25692.696] (II) event11 - HP HD Webcam: HP HD Webcam: is tagged by udev as: Keyboard
+[ 25692.696] (II) event11 - HP HD Webcam: HP HD Webcam: device is a keyboard
+[ 25692.697] (II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event17)
+[ 25692.697] (II) No input driver specified, ignoring this device.
+[ 25692.697] (II) This device may have been added with another device file.
+[ 25692.698] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event18)
+[ 25692.698] (II) No input driver specified, ignoring this device.
+[ 25692.698] (II) This device may have been added with another device file.
+[ 25692.699] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[ 25692.699] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[ 25692.699] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[ 25692.699] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 29 paused 0
+[ 25692.699] (**) AT Translated Set 2 keyboard: always reports core events
+[ 25692.699] (**) Option "Device" "/dev/input/event3"
+[ 25692.699] (**) Option "_source" "server/udev"
+[ 25692.701] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[ 25692.701] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[ 25692.702] (II) event3  - AT Translated Set 2 keyboard: device removed
+[ 25692.702] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input3/event3"
+[ 25692.702] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 11)
+[ 25692.702] (**) Option "xkb_model" "pc105"
+[ 25692.702] (**) Option "xkb_layout" "us"
+[ 25692.704] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[ 25692.704] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[ 25692.705] (II) config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/event4)
+[ 25692.705] (**) SynPS/2 Synaptics TouchPad: Applying InputClass "libinput touchpad catchall"
+[ 25692.705] (II) Using input driver 'libinput' for 'SynPS/2 Synaptics TouchPad'
+[ 25692.706] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 30 paused 0
+[ 25692.706] (**) SynPS/2 Synaptics TouchPad: always reports core events
+[ 25692.706] (**) Option "Device" "/dev/input/event4"
+[ 25692.706] (**) Option "_source" "server/udev"
+[ 25692.707] (II) event4  - SynPS/2 Synaptics TouchPad: is tagged by udev as: Touchpad
+[ 25692.708] (II) event4  - SynPS/2 Synaptics TouchPad: device is a touchpad
+[ 25692.708] (II) event4  - SynPS/2 Synaptics TouchPad: device removed
+[ 25692.709] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio3/input/input10/event4"
+[ 25692.709] (II) XINPUT: Adding extended input device "SynPS/2 Synaptics TouchPad" (type: TOUCHPAD, id 12)
+[ 25692.709] (**) Option "AccelerationScheme" "none"
+[ 25692.709] (**) SynPS/2 Synaptics TouchPad: (accel) selected scheme none/0
+[ 25692.709] (**) SynPS/2 Synaptics TouchPad: (accel) acceleration factor: 2.000
+[ 25692.709] (**) SynPS/2 Synaptics TouchPad: (accel) acceleration threshold: 4
+[ 25692.711] (II) event4  - SynPS/2 Synaptics TouchPad: is tagged by udev as: Touchpad
+[ 25692.711] (II) event4  - SynPS/2 Synaptics TouchPad: device is a touchpad
+[ 25692.712] (II) config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/mouse0)
+[ 25692.712] (II) No input driver specified, ignoring this device.
+[ 25692.712] (II) This device may have been added with another device file.
+[ 25692.713] (II) config/udev: Adding input device ST LIS3LV02DL Accelerometer (/dev/input/event9)
+[ 25692.713] (II) No input driver specified, ignoring this device.
+[ 25692.713] (II) This device may have been added with another device file.
+[ 25692.714] (II) config/udev: Adding input device ST LIS3LV02DL Accelerometer (/dev/input/js0)
+[ 25692.714] (II) No input driver specified, ignoring this device.
+[ 25692.714] (II) This device may have been added with another device file.
+[ 25692.718] (II) config/udev: Adding input device HP Wireless hotkeys (/dev/input/event7)
+[ 25692.718] (**) HP Wireless hotkeys: Applying InputClass "libinput keyboard catchall"
+[ 25692.718] (II) Using input driver 'libinput' for 'HP Wireless hotkeys'
+[ 25692.719] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 31 paused 0
+[ 25692.719] (**) HP Wireless hotkeys: always reports core events
+[ 25692.719] (**) Option "Device" "/dev/input/event7"
+[ 25692.719] (**) Option "_source" "server/udev"
+[ 25692.720] (II) event7  - HP Wireless hotkeys: is tagged by udev as: Keyboard
+[ 25692.720] (II) event7  - HP Wireless hotkeys: device is a keyboard
+[ 25692.720] (II) event7  - HP Wireless hotkeys: device removed
+[ 25692.720] (**) Option "config_info" "udev:/sys/devices/virtual/input/input14/event7"
+[ 25692.720] (II) XINPUT: Adding extended input device "HP Wireless hotkeys" (type: KEYBOARD, id 13)
+[ 25692.720] (**) Option "xkb_model" "pc105"
+[ 25692.720] (**) Option "xkb_layout" "us"
+[ 25692.721] (II) event7  - HP Wireless hotkeys: is tagged by udev as: Keyboard
+[ 25692.721] (II) event7  - HP Wireless hotkeys: device is a keyboard
+[ 25692.722] (II) config/udev: Adding input device HP WMI hotkeys (/dev/input/event8)
+[ 25692.722] (**) HP WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[ 25692.722] (II) Using input driver 'libinput' for 'HP WMI hotkeys'
+[ 25692.723] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 32 paused 0
+[ 25692.723] (**) HP WMI hotkeys: always reports core events
+[ 25692.723] (**) Option "Device" "/dev/input/event8"
+[ 25692.723] (**) Option "_source" "server/udev"
+[ 25692.723] (II) event8  - HP WMI hotkeys: is tagged by udev as: Keyboard Switch
+[ 25692.723] (II) event8  - HP WMI hotkeys: device is a keyboard
+[ 25692.724] (II) event8  - HP WMI hotkeys: device removed
+[ 25692.724] (**) Option "config_info" "udev:/sys/devices/virtual/input/input15/event8"
+[ 25692.724] (II) XINPUT: Adding extended input device "HP WMI hotkeys" (type: KEYBOARD, id 14)
+[ 25692.724] (**) Option "xkb_model" "pc105"
+[ 25692.724] (**) Option "xkb_layout" "us"
+[ 25692.725] (II) event8  - HP WMI hotkeys: is tagged by udev as: Keyboard Switch
+[ 25692.725] (II) event8  - HP WMI hotkeys: device is a keyboard
+[ 25693.433] (II) modeset(0): EDID vendor "LGD", prod id 852
+[ 25693.433] (II) modeset(0): Printing DDC gathered Modelines:
+[ 25693.433] (II) modeset(0): Modeline "1366x768"x0.0   72.30  1366 1402 1442 1526  768 771 776 790 -hsync -vsync (47.4 kHz eP)
+[ 25693.433] (II) modeset(0): Modeline "1366x768"x0.0   48.20  1366 1402 1442 1526  768 771 776 790 -hsync -vsync (31.6 kHz e)
+[ 29412.603] (II) config/udev: removing device 2.4G Mouse
+[ 29412.603] (**) Option "fd" "27"
+[ 29412.603] (II) event6  - 2.4G Mouse: device removed
+[ 29412.606] (II) UnloadModule: "libinput"
+[ 29412.606] (II) systemd-logind: releasing fd for 13:70
+[ 29810.457] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 29810.457] (II) No input driver specified, ignoring this device.
+[ 29810.457] (II) This device may have been added with another device file.
+[ 29810.571] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 29810.571] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 29810.571] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 29810.629] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 61 paused 0
+[ 29810.629] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 29810.629] (**) Option "Device" "/dev/input/event5"
+[ 29810.629] (**) Option "_source" "server/udev"
+[ 29810.635] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 29810.635] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 29810.635] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 29810.636] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0003/input/input64/event5"
+[ 29810.636] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 29810.637] (**) Option "AccelerationScheme" "none"
+[ 29810.637] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 29810.637] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 29810.637] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 29810.639] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 29810.639] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 29820.807] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[ 34181.108] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 34181.108] (**) Option "fd" "61"
+[ 34181.108] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 34181.113] (II) UnloadModule: "libinput"
+[ 34181.113] (II) systemd-logind: releasing fd for 13:69
+[ 35031.948] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 35031.948] (II) No input driver specified, ignoring this device.
+[ 35031.948] (II) This device may have been added with another device file.
+[ 35032.074] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 35032.074] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 35032.074] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 35032.133] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 63 paused 0
+[ 35032.133] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 35032.133] (**) Option "Device" "/dev/input/event5"
+[ 35032.133] (**) Option "_source" "server/udev"
+[ 35032.139] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 35032.139] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 35032.139] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 35032.139] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0004/input/input65/event5"
+[ 35032.139] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 35032.142] (**) Option "AccelerationScheme" "none"
+[ 35032.144] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 35032.144] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 35032.144] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 35032.146] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 35032.147] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 35175.643] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[ 37229.158] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 37229.158] (**) Option "fd" "63"
+[ 37229.158] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 37229.161] (II) UnloadModule: "libinput"
+[ 37229.161] (II) systemd-logind: releasing fd for 13:69
+[ 37773.604] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 37773.604] (II) No input driver specified, ignoring this device.
+[ 37773.604] (II) This device may have been added with another device file.
+[ 37773.700] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 37773.700] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 37773.700] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 37773.781] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 63 paused 0
+[ 37773.781] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 37773.781] (**) Option "Device" "/dev/input/event5"
+[ 37773.781] (**) Option "_source" "server/udev"
+[ 37773.787] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 37773.788] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 37773.789] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 37773.789] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0005/input/input66/event5"
+[ 37773.789] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 37773.792] (**) Option "AccelerationScheme" "none"
+[ 37773.794] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 37773.794] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 37773.794] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 37773.796] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 37773.797] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 38252.272] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 38252.272] (**) Option "fd" "63"
+[ 38252.272] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 38252.278] (II) UnloadModule: "libinput"
+[ 38252.278] (II) systemd-logind: releasing fd for 13:69
+[ 39227.159] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 39227.159] (II) No input driver specified, ignoring this device.
+[ 39227.159] (II) This device may have been added with another device file.
+[ 39227.257] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 39227.257] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 39227.257] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 39227.329] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 63 paused 0
+[ 39227.329] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 39227.329] (**) Option "Device" "/dev/input/event5"
+[ 39227.329] (**) Option "_source" "server/udev"
+[ 39227.334] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 39227.335] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 39227.335] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 39227.335] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0006/input/input67/event5"
+[ 39227.335] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 39227.339] (**) Option "AccelerationScheme" "none"
+[ 39227.340] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 39227.340] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 39227.341] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 39227.343] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 39227.343] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 39659.230] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[ 44646.007] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 44646.007] (**) Option "fd" "63"
+[ 44646.007] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 44646.009] (II) UnloadModule: "libinput"
+[ 44646.009] (II) systemd-logind: releasing fd for 13:69
+[ 45866.648] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 45866.648] (II) No input driver specified, ignoring this device.
+[ 45866.648] (II) This device may have been added with another device file.
+[ 45866.788] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 45866.788] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 45866.788] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 45866.849] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 99 paused 0
+[ 45866.849] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 45866.849] (**) Option "Device" "/dev/input/event5"
+[ 45866.849] (**) Option "_source" "server/udev"
+[ 45866.855] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 45866.855] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 45866.856] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 45866.856] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0007/input/input68/event5"
+[ 45866.856] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 45866.858] (**) Option "AccelerationScheme" "none"
+[ 45866.858] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 45866.858] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 45866.858] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 45866.861] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 45866.861] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 46158.689] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[ 52132.667] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 52132.667] (**) Option "fd" "99"
+[ 52132.667] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 52132.673] (II) UnloadModule: "libinput"
+[ 52132.673] (II) systemd-logind: releasing fd for 13:69
+[ 52138.988] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 52138.988] (II) No input driver specified, ignoring this device.
+[ 52138.988] (II) This device may have been added with another device file.
+[ 52139.104] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 52139.104] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 52139.104] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 52139.193] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 99 paused 0
+[ 52139.193] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 52139.193] (**) Option "Device" "/dev/input/event5"
+[ 52139.193] (**) Option "_source" "server/udev"
+[ 52139.200] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 52139.201] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 52139.202] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 52139.202] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0008/input/input69/event5"
+[ 52139.202] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 52139.204] (**) Option "AccelerationScheme" "none"
+[ 52139.205] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 52139.205] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 52139.205] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 52139.207] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 52139.208] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 52143.953] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 52143.953] (**) Option "fd" "99"
+[ 52143.953] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 52143.955] (II) UnloadModule: "libinput"
+[ 52143.956] (II) systemd-logind: releasing fd for 13:69
+[ 67455.281] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 67455.281] (II) No input driver specified, ignoring this device.
+[ 67455.281] (II) This device may have been added with another device file.
+[ 67455.375] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 67455.376] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 67455.376] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 67455.449] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 51 paused 0
+[ 67455.449] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 67455.449] (**) Option "Device" "/dev/input/event5"
+[ 67455.449] (**) Option "_source" "server/udev"
+[ 67455.454] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 67455.454] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 67455.455] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 67455.455] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0009/input/input70/event5"
+[ 67455.455] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 67455.456] (**) Option "AccelerationScheme" "none"
+[ 67455.457] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 67455.457] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 67455.457] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 67455.460] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 67455.460] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 67544.744] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[ 68701.450] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 68701.450] (**) Option "fd" "51"
+[ 68701.450] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 68701.452] (II) UnloadModule: "libinput"
+[ 68701.453] (II) systemd-logind: releasing fd for 13:69
+[ 72791.352] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 72791.352] (II) No input driver specified, ignoring this device.
+[ 72791.352] (II) This device may have been added with another device file.
+[ 72791.460] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 72791.460] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 72791.460] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 72791.521] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 61 paused 0
+[ 72791.521] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 72791.521] (**) Option "Device" "/dev/input/event5"
+[ 72791.521] (**) Option "_source" "server/udev"
+[ 72791.527] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 72791.527] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 72791.528] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 72791.528] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.000A/input/input71/event5"
+[ 72791.528] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 72791.529] (**) Option "AccelerationScheme" "none"
+[ 72791.529] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 72791.529] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 72791.529] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 72791.532] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 72791.532] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 73659.812] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[ 83207.487] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 83207.487] (**) Option "fd" "61"
+[ 83207.487] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 83207.490] (II) UnloadModule: "libinput"
+[ 83207.490] (II) systemd-logind: releasing fd for 13:69
+[ 83618.679] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 83618.679] (II) No input driver specified, ignoring this device.
+[ 83618.679] (II) This device may have been added with another device file.
+[ 83618.792] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 83618.792] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 83618.792] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 83618.861] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 85 paused 0
+[ 83618.861] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 83618.861] (**) Option "Device" "/dev/input/event5"
+[ 83618.861] (**) Option "_source" "server/udev"
+[ 83618.867] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 83618.868] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 83618.869] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 83618.869] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.000B/input/input78/event5"
+[ 83618.869] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 83618.871] (**) Option "AccelerationScheme" "none"
+[ 83618.873] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 83618.873] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 83618.873] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 83618.875] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 83618.876] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 83676.335] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 83676.335] (**) Option "fd" "85"
+[ 83676.335] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 83676.337] (II) UnloadModule: "libinput"
+[ 83676.337] (II) systemd-logind: releasing fd for 13:69
+[ 83727.759] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 83727.759] (II) No input driver specified, ignoring this device.
+[ 83727.759] (II) This device may have been added with another device file.
+[ 83727.843] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 83727.843] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 83727.843] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 83727.904] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 94 paused 0
+[ 83727.905] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 83727.905] (**) Option "Device" "/dev/input/event5"
+[ 83727.905] (**) Option "_source" "server/udev"
+[ 83727.907] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 83727.907] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 83727.907] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 83727.907] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.000C/input/input79/event5"
+[ 83727.907] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 83727.909] (**) Option "AccelerationScheme" "none"
+[ 83727.910] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 83727.910] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 83727.910] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 83727.913] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 83727.913] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 87211.430] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 87211.430] (**) Option "fd" "94"
+[ 87211.430] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 87211.433] (II) UnloadModule: "libinput"
+[ 87211.433] (II) systemd-logind: releasing fd for 13:69
+[ 90888.954] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 90888.954] (II) No input driver specified, ignoring this device.
+[ 90888.954] (II) This device may have been added with another device file.
+[ 90889.016] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 90889.016] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 90889.016] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 90889.089] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 60 paused 0
+[ 90889.089] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 90889.089] (**) Option "Device" "/dev/input/event5"
+[ 90889.089] (**) Option "_source" "server/udev"
+[ 90889.096] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 90889.096] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 90889.097] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 90889.097] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.000D/input/input80/event5"
+[ 90889.097] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 90889.100] (**) Option "AccelerationScheme" "none"
+[ 90889.100] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 90889.100] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 90889.100] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 90889.103] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 90889.103] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 90980.804] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[ 91322.166] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 91322.166] (**) Option "fd" "60"
+[ 91322.166] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 91322.169] (II) UnloadModule: "libinput"
+[ 91322.169] (II) systemd-logind: releasing fd for 13:69
+[ 91473.231] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 91473.231] (II) No input driver specified, ignoring this device.
+[ 91473.231] (II) This device may have been added with another device file.
+[ 91473.328] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 91473.328] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 91473.328] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 91473.377] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 100 paused 0
+[ 91473.377] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 91473.377] (**) Option "Device" "/dev/input/event5"
+[ 91473.377] (**) Option "_source" "server/udev"
+[ 91473.383] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 91473.383] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 91473.384] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 91473.384] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.000E/input/input81/event5"
+[ 91473.384] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 91473.384] (**) Option "AccelerationScheme" "none"
+[ 91473.385] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 91473.385] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 91473.385] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 91473.387] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 91473.387] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 91914.533] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[ 95300.499] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 95300.499] (**) Option "fd" "100"
+[ 95300.499] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 95300.501] (II) UnloadModule: "libinput"
+[ 95300.501] (II) systemd-logind: releasing fd for 13:69
+[ 96695.052] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 96695.052] (II) No input driver specified, ignoring this device.
+[ 96695.052] (II) This device may have been added with another device file.
+[ 96695.155] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 96695.155] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 96695.155] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 96695.225] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 47 paused 0
+[ 96695.225] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 96695.225] (**) Option "Device" "/dev/input/event5"
+[ 96695.225] (**) Option "_source" "server/udev"
+[ 96695.229] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 96695.229] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 96695.229] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 96695.230] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.000F/input/input82/event5"
+[ 96695.230] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 96695.232] (**) Option "AccelerationScheme" "none"
+[ 96695.232] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 96695.232] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 96695.232] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 96695.235] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 96695.235] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 98135.715] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[ 99300.823] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[ 99300.823] (**) Option "fd" "47"
+[ 99300.823] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 99300.826] (II) UnloadModule: "libinput"
+[ 99300.826] (II) systemd-logind: releasing fd for 13:69
+[ 99562.662] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[ 99562.662] (II) No input driver specified, ignoring this device.
+[ 99562.662] (II) This device may have been added with another device file.
+[ 99562.762] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[ 99562.762] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[ 99562.762] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[ 99562.833] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 77 paused 0
+[ 99562.833] (**) SIGMACHIP Usb Mouse: always reports core events
+[ 99562.833] (**) Option "Device" "/dev/input/event5"
+[ 99562.833] (**) Option "_source" "server/udev"
+[ 99562.838] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 99562.839] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 99562.839] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[ 99562.840] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0010/input/input83/event5"
+[ 99562.840] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[ 99562.844] (**) Option "AccelerationScheme" "none"
+[ 99562.845] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[ 99562.845] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[ 99562.845] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[ 99562.847] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[ 99562.847] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[ 99708.155] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[103262.515] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[103262.515] (**) Option "fd" "77"
+[103262.515] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[103262.518] (II) UnloadModule: "libinput"
+[103262.518] (II) systemd-logind: releasing fd for 13:69
+[103294.749] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[103294.749] (II) No input driver specified, ignoring this device.
+[103294.749] (II) This device may have been added with another device file.
+[103294.835] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[103294.835] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[103294.835] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[103294.921] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 77 paused 0
+[103294.921] (**) SIGMACHIP Usb Mouse: always reports core events
+[103294.921] (**) Option "Device" "/dev/input/event5"
+[103294.921] (**) Option "_source" "server/udev"
+[103294.926] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[103294.927] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[103294.927] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[103294.927] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0011/input/input84/event5"
+[103294.927] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[103294.929] (**) Option "AccelerationScheme" "none"
+[103294.930] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[103294.930] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[103294.930] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[103294.933] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[103294.933] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[103570.893] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[103926.369] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[103926.369] (**) Option "fd" "77"
+[103926.369] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[103926.374] (II) UnloadModule: "libinput"
+[103926.374] (II) systemd-logind: releasing fd for 13:69
+[104367.174] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[104367.174] (II) No input driver specified, ignoring this device.
+[104367.174] (II) This device may have been added with another device file.
+[104367.272] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[104367.272] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[104367.272] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[104367.321] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 47 paused 0
+[104367.321] (**) SIGMACHIP Usb Mouse: always reports core events
+[104367.321] (**) Option "Device" "/dev/input/event5"
+[104367.321] (**) Option "_source" "server/udev"
+[104367.329] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[104367.329] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[104367.330] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[104367.330] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0012/input/input85/event5"
+[104367.330] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[104367.334] (**) Option "AccelerationScheme" "none"
+[104367.336] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[104367.336] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[104367.336] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[104367.338] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[104367.338] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[104984.476] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[105905.451] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[105905.451] (**) Option "fd" "47"
+[105905.451] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[105905.453] (II) UnloadModule: "libinput"
+[105905.453] (II) systemd-logind: releasing fd for 13:69
+[107427.913] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[107427.913] (II) No input driver specified, ignoring this device.
+[107427.913] (II) This device may have been added with another device file.
+[107427.979] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[107427.979] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[107427.979] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[107428.053] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 54 paused 0
+[107428.053] (**) SIGMACHIP Usb Mouse: always reports core events
+[107428.053] (**) Option "Device" "/dev/input/event5"
+[107428.053] (**) Option "_source" "server/udev"
+[107428.057] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[107428.057] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[107428.058] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[107428.058] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0013/input/input86/event5"
+[107428.058] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[107428.061] (**) Option "AccelerationScheme" "none"
+[107428.063] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[107428.063] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[107428.063] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[107428.066] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[107428.066] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[107577.193] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[116094.987] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[116094.987] (**) Option "fd" "54"
+[116094.987] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[116094.989] (II) UnloadModule: "libinput"
+[116094.989] (II) systemd-logind: releasing fd for 13:69
+[116201.799] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[116201.799] (II) No input driver specified, ignoring this device.
+[116201.799] (II) This device may have been added with another device file.
+[116201.908] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[116201.908] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[116201.908] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[116201.981] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 47 paused 0
+[116201.981] (**) SIGMACHIP Usb Mouse: always reports core events
+[116201.981] (**) Option "Device" "/dev/input/event5"
+[116201.981] (**) Option "_source" "server/udev"
+[116201.983] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[116201.983] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[116201.984] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[116201.984] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0014/input/input87/event5"
+[116201.984] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[116201.985] (**) Option "AccelerationScheme" "none"
+[116201.987] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[116201.987] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[116201.987] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[116201.989] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[116201.989] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[117084.152] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[118517.315] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[118517.315] (**) Option "fd" "47"
+[118517.315] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[118517.319] (II) UnloadModule: "libinput"
+[118517.319] (II) systemd-logind: releasing fd for 13:69
+[118646.327] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[118646.327] (II) No input driver specified, ignoring this device.
+[118646.327] (II) This device may have been added with another device file.
+[118646.422] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[118646.422] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[118646.422] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[118646.469] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 47 paused 0
+[118646.469] (**) SIGMACHIP Usb Mouse: always reports core events
+[118646.469] (**) Option "Device" "/dev/input/event5"
+[118646.469] (**) Option "_source" "server/udev"
+[118646.474] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[118646.475] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[118646.475] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[118646.475] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0015/input/input88/event5"
+[118646.475] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[118646.477] (**) Option "AccelerationScheme" "none"
+[118646.477] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[118646.477] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[118646.477] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[118646.480] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[118646.480] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[118759.191] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[121050.737] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[121050.737] (**) Option "fd" "47"
+[121050.737] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[121050.742] (II) UnloadModule: "libinput"
+[121050.742] (II) systemd-logind: releasing fd for 13:69
+[121181.197] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[121181.197] (II) No input driver specified, ignoring this device.
+[121181.197] (II) This device may have been added with another device file.
+[121181.309] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[121181.310] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[121181.310] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[121181.357] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 47 paused 0
+[121181.357] (**) SIGMACHIP Usb Mouse: always reports core events
+[121181.357] (**) Option "Device" "/dev/input/event5"
+[121181.357] (**) Option "_source" "server/udev"
+[121181.362] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[121181.362] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[121181.363] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[121181.363] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0016/input/input89/event5"
+[121181.363] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[121181.365] (**) Option "AccelerationScheme" "none"
+[121181.367] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[121181.367] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[121181.367] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[121181.369] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[121181.369] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[121327.404] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[121666.017] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[121666.017] (**) Option "fd" "47"
+[121666.017] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[121666.023] (II) UnloadModule: "libinput"
+[121666.023] (II) systemd-logind: releasing fd for 13:69
+[124832.899] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[124832.899] (II) No input driver specified, ignoring this device.
+[124832.899] (II) This device may have been added with another device file.
+[124833.011] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[124833.011] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[124833.011] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[124833.077] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 48 paused 0
+[124833.077] (**) SIGMACHIP Usb Mouse: always reports core events
+[124833.077] (**) Option "Device" "/dev/input/event5"
+[124833.077] (**) Option "_source" "server/udev"
+[124833.083] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[124833.083] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[124833.084] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[124833.084] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0017/input/input90/event5"
+[124833.084] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[124833.085] (**) Option "AccelerationScheme" "none"
+[124833.086] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[124833.086] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[124833.086] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[124833.088] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[124833.089] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[125866.454] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[125866.454] (**) Option "fd" "48"
+[125866.454] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[125866.457] (II) UnloadModule: "libinput"
+[125866.457] (II) systemd-logind: releasing fd for 13:69
+[126074.094] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[126074.094] (II) No input driver specified, ignoring this device.
+[126074.094] (II) This device may have been added with another device file.
+[126074.195] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[126074.195] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[126074.195] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[126074.245] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 48 paused 0
+[126074.245] (**) SIGMACHIP Usb Mouse: always reports core events
+[126074.245] (**) Option "Device" "/dev/input/event5"
+[126074.245] (**) Option "_source" "server/udev"
+[126074.252] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[126074.252] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[126074.252] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[126074.252] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0018/input/input91/event5"
+[126074.252] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[126074.253] (**) Option "AccelerationScheme" "none"
+[126074.253] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[126074.253] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[126074.253] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[126074.256] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[126074.256] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[127170.934] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[127170.934] (**) Option "fd" "48"
+[127170.934] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[127170.937] (II) UnloadModule: "libinput"
+[127170.937] (II) systemd-logind: releasing fd for 13:69
+[128310.201] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[128310.201] (II) No input driver specified, ignoring this device.
+[128310.201] (II) This device may have been added with another device file.
+[128310.296] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[128310.296] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[128310.296] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[128310.369] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 50 paused 0
+[128310.369] (**) SIGMACHIP Usb Mouse: always reports core events
+[128310.369] (**) Option "Device" "/dev/input/event5"
+[128310.369] (**) Option "_source" "server/udev"
+[128310.375] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[128310.375] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[128310.376] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[128310.376] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.0019/input/input92/event5"
+[128310.376] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[128310.379] (**) Option "AccelerationScheme" "none"
+[128310.381] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[128310.381] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[128310.381] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[128310.384] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[128310.384] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[128823.244] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[128823.244] (**) Option "fd" "50"
+[128823.244] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[128823.249] (II) UnloadModule: "libinput"
+[128823.249] (II) systemd-logind: releasing fd for 13:69
+[129070.212] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[129070.212] (II) No input driver specified, ignoring this device.
+[129070.212] (II) This device may have been added with another device file.
+[129070.331] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[129070.331] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[129070.331] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[129070.381] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 52 paused 0
+[129070.381] (**) SIGMACHIP Usb Mouse: always reports core events
+[129070.381] (**) Option "Device" "/dev/input/event5"
+[129070.381] (**) Option "_source" "server/udev"
+[129070.387] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[129070.387] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[129070.388] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[129070.388] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.001A/input/input93/event5"
+[129070.388] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[129070.388] (**) Option "AccelerationScheme" "none"
+[129070.389] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[129070.389] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[129070.389] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[129070.391] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[129070.391] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[129222.306] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[129222.307] (**) Option "fd" "52"
+[129222.307] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[129222.309] (II) UnloadModule: "libinput"
+[129222.309] (II) systemd-logind: releasing fd for 13:69
+[131222.217] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[131222.217] (II) No input driver specified, ignoring this device.
+[131222.217] (II) This device may have been added with another device file.
+[131222.316] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[131222.316] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[131222.316] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[131222.393] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 50 paused 0
+[131222.393] (**) SIGMACHIP Usb Mouse: always reports core events
+[131222.393] (**) Option "Device" "/dev/input/event5"
+[131222.393] (**) Option "_source" "server/udev"
+[131222.398] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[131222.399] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[131222.399] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[131222.399] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.001B/input/input94/event5"
+[131222.399] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[131222.400] (**) Option "AccelerationScheme" "none"
+[131222.400] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[131222.400] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[131222.400] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[131222.403] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[131222.403] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[131466.552] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[132671.499] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[132671.499] (**) Option "fd" "50"
+[132671.499] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[132671.503] (II) UnloadModule: "libinput"
+[132671.503] (II) systemd-logind: releasing fd for 13:69
+[135243.850] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[135243.850] (II) No input driver specified, ignoring this device.
+[135243.850] (II) This device may have been added with another device file.
+[135243.927] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[135243.927] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[135243.927] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[135244.001] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 75 paused 0
+[135244.001] (**) SIGMACHIP Usb Mouse: always reports core events
+[135244.001] (**) Option "Device" "/dev/input/event5"
+[135244.001] (**) Option "_source" "server/udev"
+[135244.003] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[135244.003] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[135244.004] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[135244.004] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.001C/input/input95/event5"
+[135244.004] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[135244.005] (**) Option "AccelerationScheme" "none"
+[135244.005] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[135244.005] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[135244.005] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[135244.008] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[135244.008] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[135656.433] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[137815.426] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[137815.426] (**) Option "fd" "75"
+[137815.426] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[137815.428] (II) UnloadModule: "libinput"
+[137815.428] (II) systemd-logind: releasing fd for 13:69
+[137883.256] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[137883.256] (II) No input driver specified, ignoring this device.
+[137883.256] (II) This device may have been added with another device file.
+[137883.352] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[137883.352] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[137883.352] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[137883.401] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 47 paused 0
+[137883.401] (**) SIGMACHIP Usb Mouse: always reports core events
+[137883.401] (**) Option "Device" "/dev/input/event5"
+[137883.401] (**) Option "_source" "server/udev"
+[137883.406] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[137883.406] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[137883.407] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[137883.407] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.001D/input/input102/event5"
+[137883.407] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[137883.408] (**) Option "AccelerationScheme" "none"
+[137883.408] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[137883.408] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[137883.408] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[137883.410] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[137883.411] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[138011.899] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[138317.490] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[138317.490] (**) Option "fd" "47"
+[138317.491] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[138317.495] (II) UnloadModule: "libinput"
+[138317.495] (II) systemd-logind: releasing fd for 13:69
+[138746.238] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[138746.238] (II) No input driver specified, ignoring this device.
+[138746.238] (II) This device may have been added with another device file.
+[138746.339] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[138746.339] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[138746.339] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[138746.389] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 53 paused 0
+[138746.389] (**) SIGMACHIP Usb Mouse: always reports core events
+[138746.389] (**) Option "Device" "/dev/input/event5"
+[138746.389] (**) Option "_source" "server/udev"
+[138746.395] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[138746.395] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[138746.396] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[138746.396] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.001E/input/input103/event5"
+[138746.396] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[138746.397] (**) Option "AccelerationScheme" "none"
+[138746.397] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[138746.397] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[138746.397] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[138746.399] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[138746.400] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[139196.535] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[139804.423] (II) config/udev: removing device SIGMACHIP Usb Mouse
+[139804.423] (**) Option "fd" "53"
+[139804.423] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[139804.425] (II) UnloadModule: "libinput"
+[139804.425] (II) systemd-logind: releasing fd for 13:69
+[139872.683] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/mouse1)
+[139872.683] (II) No input driver specified, ignoring this device.
+[139872.683] (II) This device may have been added with another device file.
+[139872.796] (II) config/udev: Adding input device SIGMACHIP Usb Mouse (/dev/input/event5)
+[139872.796] (**) SIGMACHIP Usb Mouse: Applying InputClass "libinput pointer catchall"
+[139872.796] (II) Using input driver 'libinput' for 'SIGMACHIP Usb Mouse'
+[139872.845] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 82 paused 0
+[139872.845] (**) SIGMACHIP Usb Mouse: always reports core events
+[139872.845] (**) Option "Device" "/dev/input/event5"
+[139872.845] (**) Option "_source" "server/udev"
+[139872.850] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[139872.850] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[139872.851] (II) event5  - SIGMACHIP Usb Mouse: device removed
+[139872.851] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:1C4F:0034.001F/input/input104/event5"
+[139872.851] (II) XINPUT: Adding extended input device "SIGMACHIP Usb Mouse" (type: MOUSE, id 9)
+[139872.852] (**) Option "AccelerationScheme" "none"
+[139872.853] (**) SIGMACHIP Usb Mouse: (accel) selected scheme none/0
+[139872.853] (**) SIGMACHIP Usb Mouse: (accel) acceleration factor: 2.000
+[139872.853] (**) SIGMACHIP Usb Mouse: (accel) acceleration threshold: 4
+[139872.855] (II) event5  - SIGMACHIP Usb Mouse: is tagged by udev as: Mouse
+[139872.855] (II) event5  - SIGMACHIP Usb Mouse: device is a pointer
+[140177.320] (II) event5  - SIGMACHIP Usb Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details

@@ -1,0 +1,142 @@
+[2022-06-02 15:39:19.238] [exthost] [info] Extension host with pid 135355 started
+[2022-06-02 15:39:19.238] [exthost] [info] Skipping acquiring lock for /home/sirmmy/.config/Code/User/workspaceStorage/bb2a0330abca88eb3f8d825d89e55d67.
+[2022-06-02 15:39:19.415] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-06-02 15:39:19.445] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-02 15:39:19.448] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-02 15:39:19.452] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-02 15:39:19.458] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+[2022-06-02 15:39:19.476] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2022-06-02 15:39:19.478] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-06-02 15:39:19.497] [exthost] [info] ExtensionService#_doActivateExtension spywhere.guides, startup: true, activationEvent: '*'
+[2022-06-02 15:39:19.693] [exthost] [info] ExtensionService#_doActivateExtension wraith13.zoombar-vscode, startup: true, activationEvent: '*'
+[2022-06-02 15:39:19.705] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-06-02 15:39:19.848] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-02 15:39:19.880] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-02 15:39:20.064] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-06-02 15:39:20.197] [exthost] [info] Eager extensions activated
+[2022-06-02 15:39:20.232] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 15:39:20.247] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 15:39:20.252] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 15:39:20.260] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 15:39:20.326] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 15:39:20.343] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 15:39:23.008] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-02 15:39:23.011] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-02 15:39:23.027] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-02 15:39:23.322] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-06-02 15:39:27.961] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:39:28.068] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-06-02 15:39:28.077] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-06-02 15:39:28.132] [exthost] [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-06-02 15:39:28.810] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-06-02 15:39:41.293] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:40:51.995] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:41:15.778] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:42:45.580] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:43:18.349] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:43:48.795] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:44:59.711] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:48:00.103] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:48:55.269] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:48:56.698] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:49:44.722] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:53:27.943] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:54:13.006] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:54:13.009] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+[2022-06-02 15:55:59.591] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:55:59.687] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-06-02 15:56:16.647] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:56:26.701] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:58:15.583] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 15:59:35.145] [exthost] [info] ExtensionService#_doActivateExtension mgmcdermott.vscode-language-babel, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-06-02 16:01:14.363] [exthost] [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+[2022-06-02 16:03:31.540] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:04:44.720] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:04:52.564] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:04:56.294] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:05:24.567] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:06:35.648] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:06:38.100] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:08:29.161] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:09:19.663] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:09:34.382] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:09:39.157] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:11:39.789] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:11:41.959] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:12:24.361] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:12:49.010] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:14:17.897] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:15:15.569] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:15:35.936] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:16:04.507] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:16:20.190] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:16:45.005] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:17:14.608] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:17:18.712] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:18:02.437] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:18:16.436] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:18:35.831] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:19:17.778] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:19:25.281] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:21:45.777] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:22:38.085] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:24:12.426] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:24:53.457] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:25:09.537] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:26:41.419] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:27:04.030] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:28:37.986] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:29:04.638] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:30:16.337] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:30:49.669] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:31:23.697] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:32:47.071] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:33:01.357] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:33:48.212] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:34:06.836] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:35:14.187] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:35:42.508] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:36:01.398] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:36:06.534] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:37:01.980] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:37:07.281] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:38:05.688] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:38:25.660] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:38:37.670] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:38:40.729] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:38:56.290] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:39:51.139] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:39:54.171] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:39:56.239] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:41:04.049] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:42:16.627] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:42:20.863] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:43:09.275] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:43:15.276] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:43:54.897] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:44:31.965] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:45:35.683] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:46:10.011] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:47:47.903] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:49:02.495] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:49:32.919] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:49:53.336] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:50:52.171] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:52:24.952] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:52:39.949] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:53:04.733] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:54:33.169] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 16:56:07.837] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 17:06:31.564] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 17:06:41.946] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 17:07:02.894] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 17:07:06.808] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 17:07:32.353] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 17:07:41.755] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 17:07:45.130] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 17:08:36.150] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 17:08:43.400] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 17:09:21.530] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 17:09:30.095] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 17:27:30.986] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-06-02 17:27:31.070] [exthost] [info] Extension host with pid 135355 exiting with code 0

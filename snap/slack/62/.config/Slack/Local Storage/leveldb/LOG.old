@@ -1,0 +1,45 @@
+2022/05/31-14:41:31.921 ce63 Reusing MANIFEST /home/sirmmy/snap/slack/62/.config/Slack/Local Storage/leveldb/MANIFEST-000001
+2022/05/31-14:41:32.045 ce63 Recovering log #26
+2022/05/31-14:41:32.101 ce63 Reusing old log /home/sirmmy/snap/slack/62/.config/Slack/Local Storage/leveldb/000026.log 
+2022/05/31-15:08:35.291 d587 Level-0 table #30: started
+2022/05/31-15:08:35.357 d587 Level-0 table #30: 12632 bytes OK
+2022/05/31-15:08:35.403 d587 Delete type=0 #26
+2022/05/31-15:08:35.403 d587 Compacting 4@0 + 1@1 files
+2022/05/31-15:08:35.446 d587 Generated table #31@0: 7 keys, 3705 bytes
+2022/05/31-15:08:35.446 d587 Compacted 4@0 + 1@1 files => 3705 bytes
+2022/05/31-15:08:35.491 d587 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/05/31-15:08:35.492 d587 Delete type=2 #23
+2022/05/31-15:08:35.492 d587 Delete type=2 #20
+2022/05/31-15:08:35.492 d587 Delete type=2 #25
+2022/05/31-15:08:35.492 d587 Delete type=2 #30
+2022/05/31-15:08:35.492 d587 Delete type=2 #27
+2022/05/31-15:13:35.294 d700 Level-0 table #33: started
+2022/05/31-15:13:35.360 d700 Level-0 table #33: 12268 bytes OK
+2022/05/31-15:13:35.406 d700 Delete type=0 #29
+2022/06/01-14:13:43.359 11d64 Level-0 table #35: started
+2022/06/01-14:13:43.429 11d64 Level-0 table #35: 11164 bytes OK
+2022/06/01-14:13:43.468 11d64 Delete type=0 #32
+2022/06/01-19:29:43.408 16f0f Level-0 table #37: started
+2022/06/01-19:29:43.468 16f0f Level-0 table #37: 9488 bytes OK
+2022/06/01-19:29:43.514 16f0f Delete type=0 #34
+2022/06/02-00:50:43.403 1b0b4 Level-0 table #39: started
+2022/06/02-00:50:43.464 1b0b4 Level-0 table #39: 9188 bytes OK
+2022/06/02-00:50:43.512 1b0b4 Delete type=0 #36
+2022/06/02-00:50:43.512 1b0b4 Compacting 4@0 + 1@1 files
+2022/06/02-00:50:43.565 1b0b4 Generated table #40@0: 9 keys, 4009 bytes
+2022/06/02-00:50:43.565 1b0b4 Compacted 4@0 + 1@1 files => 4009 bytes
+2022/06/02-00:50:43.612 1b0b4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/06/02-00:50:43.612 1b0b4 Delete type=2 #39
+2022/06/02-00:50:43.612 1b0b4 Delete type=2 #33
+2022/06/02-00:50:43.612 1b0b4 Delete type=2 #35
+2022/06/02-00:50:43.612 1b0b4 Delete type=2 #37
+2022/06/02-00:50:43.612 1b0b4 Delete type=2 #31
+2022/06/02-11:00:05.318 1cac9 Level-0 table #42: started
+2022/06/02-11:00:05.366 1cac9 Level-0 table #42: 12451 bytes OK
+2022/06/02-11:00:05.409 1cac9 Delete type=0 #38
+2022/06/02-14:33:05.317 20793 Level-0 table #44: started
+2022/06/02-14:33:05.386 20793 Level-0 table #44: 11994 bytes OK
+2022/06/02-14:33:05.433 20793 Delete type=0 #41
+2022/06/02-17:27:05.358 2248a Level-0 table #46: started
+2022/06/02-17:27:05.428 2248a Level-0 table #46: 10157 bytes OK
+2022/06/02-17:27:05.476 2248a Delete type=0 #43

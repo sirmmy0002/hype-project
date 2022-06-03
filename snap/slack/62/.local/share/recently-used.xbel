@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/sirmmy/Pictures/Screenshot%20from%202022-05-28%2017-55-36.png" added="2022-05-28T14:56:07Z" modified="2022-05-28T15:06:08Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2022-05-28T15:06:08Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirmmy/Pictures/Screenshot%20from%202022-05-28%2017-59-44.png" added="2022-05-28T15:00:02Z" modified="2022-05-28T15:00:02Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2022-05-28T15:00:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirmmy/Pictures/Screenshot%20from%202022-05-28%2018-34-58.png" added="2022-05-28T15:35:23Z" modified="2022-05-28T15:35:23Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2022-05-28T15:35:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirmmy/Pictures/Screenshot%20from%202022-05-28%2018-39-56.png" added="2022-05-28T15:40:07Z" modified="2022-05-28T15:40:07Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2022-05-28T15:40:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirmmy/Pictures/Screenshot%20from%202022-05-28%2018-53-46.png" added="2022-05-28T15:54:05Z" modified="2022-05-28T15:54:05Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2022-05-28T15:54:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirmmy/Pictures/Screenshot%20from%202022-05-28%2018-54-58.png" added="2022-05-28T15:55:19Z" modified="2022-05-28T15:55:19Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2022-05-28T15:55:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirmmy/Pictures/Screenshot%20from%202022-05-28%2018-58-36.png" added="2022-05-28T16:00:11Z" modified="2022-05-28T16:00:11Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2022-05-28T16:00:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirmmy/Pictures/Screenshot%20from%202022-05-28%2018-59-57.png" added="2022-05-28T16:00:17Z" modified="2022-05-28T16:00:17Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2022-05-28T16:00:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirmmy/Pictures/Screenshot%20from%202022-05-28%2019-05-52.png" added="2022-05-28T16:06:05Z" modified="2022-05-28T16:06:05Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2022-05-28T16:06:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirmmy/Pictures/Screenshot%20from%202022-05-28%2019-46-22.png" added="2022-05-28T16:48:44Z" modified="2022-05-28T16:48:44Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2022-05-28T16:48:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirmmy/Pictures/Screenshot%20from%202022-05-29%2019-42-14.png" added="2022-05-29T16:43:45Z" modified="2022-06-03T05:50:35Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2022-06-03T05:50:35Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sirmmy/Pictures/Screenshot%20from%202022-06-03%2010-18-27.png" added="2022-06-03T07:18:51Z" modified="2022-06-03T07:18:51Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2022-06-03T07:18:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,60 @@
+[2022-06-02 18:48:14.390] [exthost] [info] Extension host with pid 152091 started
+[2022-06-02 18:48:14.390] [exthost] [info] Skipping acquiring lock for /home/sirmmy/.config/Code/User/workspaceStorage/b456ce79740d025240ee222916fc53db.
+[2022-06-02 18:48:14.654] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-06-02 18:48:14.709] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-02 18:48:14.712] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-02 18:48:14.716] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-02 18:48:14.731] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+[2022-06-02 18:48:14.794] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2022-06-02 18:48:14.797] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-06-02 18:48:14.831] [exthost] [info] ExtensionService#_doActivateExtension spywhere.guides, startup: true, activationEvent: '*'
+[2022-06-02 18:48:15.063] [exthost] [info] ExtensionService#_doActivateExtension wraith13.zoombar-vscode, startup: true, activationEvent: '*'
+[2022-06-02 18:48:15.081] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-06-02 18:48:15.195] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-02 18:48:15.217] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-02 18:48:15.443] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-06-02 18:48:15.641] [exthost] [info] Eager extensions activated
+[2022-06-02 18:48:15.779] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:48:15.790] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:48:15.793] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:48:15.800] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:48:15.865] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:48:15.883] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:48:18.523] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-02 18:48:18.527] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-02 18:48:18.545] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-02 18:48:18.858] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-06-02 18:49:20.853] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-06-02 18:51:45.013] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 18:51:47.492] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 18:51:51.633] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 18:52:17.977] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 19:07:42.691] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 19:07:54.098] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 19:19:37.363] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 19:22:56.812] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 19:27:09.402] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 19:29:13.903] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 20:44:47.204] [exthost] [info] ExtensionService#_doActivateExtension mgmcdermott.vscode-language-babel, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-06-02 20:45:14.581] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 20:45:21.328] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 20:45:24.830] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 20:45:51.812] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 20:46:19.236] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 21:23:42.799] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 21:27:55.399] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 21:33:28.115] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 21:34:10.507] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 21:34:11.540] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 21:34:33.103] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 22:13:21.508] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 22:13:27.193] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-06-02 22:13:27.203] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-06-02 22:13:27.307] [exthost] [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-06-02 22:13:28.312] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 22:13:28.403] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-06-02 22:13:31.739] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 22:17:07.449] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 22:19:25.187] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-06-02 22:19:25.278] [exthost] [warning] {"name":"Canceled"}
+[2022-06-02 22:19:25.280] [exthost] [info] Extension host with pid 152091 exiting with code 0

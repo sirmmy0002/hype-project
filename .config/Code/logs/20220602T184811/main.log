@@ -1,0 +1,18 @@
+[2022-06-02 18:48:11.761] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-02 18:48:11.770] [main] [info] update#setState idle
+[2022-06-02 18:48:11.811] [main] [info] ExtensionHostStarterWorker created
+[2022-06-02 18:48:12.889] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-02 18:48:13.358] [main] [info] Starting extension host with pid 152091 (fork() took 22 ms).
+[2022-06-02 18:48:13.358] [main] [info] ExtensionHostStarterWorker.start() took 36 ms.
+[2022-06-02 18:48:41.771] [main] [info] update#setState checking for updates
+[2022-06-02 18:48:42.067] [main] [info] update#setState idle
+[2022-06-02 19:48:41.804] [main] [info] update#setState checking for updates
+[2022-06-02 19:48:44.755] [main] [info] update#setState idle
+[2022-06-02 20:48:41.810] [main] [info] update#setState checking for updates
+[2022-06-02 20:48:42.693] [main] [info] update#setState idle
+[2022-06-02 21:48:41.895] [main] [info] update#setState checking for updates
+[2022-06-02 21:48:44.217] [main] [info] update#setState idle
+[2022-06-02 22:19:25.220] [main] [info] Waiting for extension host with pid 152091 to exit.
+[2022-06-02 22:19:25.305] [main] [info] Extension host with pid 152091 exited with code: 0, signal: null.
+[2022-06-02 22:19:25.520] [main] [warning] [storage main] detected slow close() operation: Time: 311ms, DB size: 159744b, Large Keys: iconThemeData:88500, colorThemeData:6964, workbench.activity.placeholderViewlets:4090, __$__targetStorageMarker:2866, memento/experiment.service.memento:2265
+[2022-06-02 22:19:25.607] [main] [warning] [storage main] detected slow close() operation: Time: 399ms, DB size: 40960b, Large Keys: terminal.integrated.bufferState:13116, memento/workbench.editors.files.textFileEditor:1925, __$__targetStorageMarker:1362, workbench.scm.views.state:795, memento/workbench.parts.editor:670

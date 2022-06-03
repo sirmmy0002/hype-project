@@ -1,0 +1,214 @@
+{
+	"name": "zoombar-vscode",
+	"displayName": "Zoom Bar",
+	"description": "Zoom UI in status bar for vscode.",
+	"icon": "images/zoomhex.128.png",
+	"version": "1.4.0",
+	"publisher": "wraith13",
+	"license": "SEE LICENSE IN LICENSE_1_0.txt",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"bugs": {
+		"url": "https://github.com/wraith13/zoombar-vscode/issues"
+	},
+	"homepage": "https://github.com/wraith13/zoombar-vscode",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wraith13/zoombar-vscode.git"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"zoom",
+		"status bar",
+		"statusbar"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/source/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "zoombar-vscode.selectZoom",
+				"title": "%zoombar-vscode.selectZoom.title%",
+				"category": "%zoombar-vscode.title%"
+			},
+			{
+				"command": "zoombar-vscode.resetZoom",
+				"title": "%zoombar-vscode.resetZoom.title%",
+				"category": "%zoombar-vscode.title%"
+			},
+			{
+				"command": "zoombar-vscode.zoomIn",
+				"title": "%zoombar-vscode.zoomIn.title%",
+				"category": "%zoombar-vscode.title%"
+			},
+			{
+				"command": "zoombar-vscode.zoomOut",
+				"title": "%zoombar-vscode.zoomout.title%",
+				"category": "%zoombar-vscode.title%"
+			}
+		],
+		"configuration": [
+			{
+				"title": "%zoombar-vscode.title%",
+				"properties": {
+					"zoombar.defaultZoom": {
+						"type": "number",
+						"default": 100,
+						"description": "%zoombar.defaultZoom.description%",
+						"scope": "window"
+					},
+					"zoombar.zoomUnit": {
+						"type": "number",
+						"default": 10,
+						"description": "%zoombar.zoomUnit.description%",
+						"scope": "window"
+					},
+					"zoombar.preview": {
+						"type": "boolean",
+						"default": true,
+						"description": "%zoombar.preview.description%",
+						"scope": "window"
+					},
+					"zoombar.zoomPreset": {
+						"type": "array",
+						"items": {
+							"type": "number"
+						},
+						"default": [
+							300,
+							250,
+							200,
+							175,
+							150,
+							140,
+							130,
+							120,
+							110,
+							105,
+							100,
+							95,
+							90,
+							80,
+							75,
+							70,
+							60,
+							50
+						],
+						"description": "%zoombar.zoomPreset.description%",
+						"scope": "window"
+					},
+					"zoombar.zoomInLabel": {
+						"type": "string",
+						"default": "+",
+						"description": "%zoombar.zoomInLabel.description%",
+						"scope": "window"
+					},
+					"zoombar.zoomOutLabel": {
+						"type": "string",
+						"default": "-",
+						"description": "%zoombar.zoomOutLabel.description%",
+						"scope": "window"
+					},
+					"zoombar.fontZoomResetLabel": {
+						"type": "string",
+						"default": "$(text-size)",
+						"description": "%zoombar.fontZoomResetLabel.description%",
+						"scope": "window"
+					},
+					"zoombar.uiDisplayOrder": {
+						"type": "string",
+						"enum": [
+							"",
+							"@",
+							"%",
+							"@%",
+							"%@",
+							"+-",
+							"-+",
+							"@+-",
+							"@-+",
+							"+-@",
+							"-+@",
+							"+%-",
+							"+-%",
+							"%+-",
+							"%-+",
+							"-%+",
+							"-+%",
+							"@+%-",
+							"@+-%",
+							"@%+-",
+							"@%-+",
+							"@-%+",
+							"@-+%",
+							"+%-@",
+							"+-%@",
+							"%+-@",
+							"%-+@",
+							"-%+@",
+							"-+%@"
+						],
+						"default": "@+%-",
+						"description": "%zoombar.uiDisplayOrder.description%",
+						"scope": "window"
+					},
+					"zoombar.configurationTarget": {
+						"type": "string",
+						"default": "auto",
+						"enum": [
+							"auto",
+							"global",
+							"workspace"
+						],
+						"description": "%zoombar.configurationTarget.description%",
+						"enumDescriptions": [
+							"%zoombar.configurationTarget.auto.description%",
+							"%zoombar.configurationTarget.global.description%",
+							"%zoombar.configurationTarget.workspace.description%"
+						],
+						"scope": "window"
+					}
+				}
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint source --ext ts",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"test": "node ./out/source/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.50.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.9.0",
+		"@typescript-eslint/eslint-plugin": "^4.1.1",
+		"@typescript-eslint/parser": "^4.1.1",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.0.2",
+		"vscode-test": "^1.4.0"
+	},
+	"dependencies": {
+		"@wraith13/vscel": "0.0.28"
+	},
+	"__metadata": {
+		"id": "03de82ee-b6a4-46c9-bde7-7b6793ffa232",
+		"publisherId": "e92c9e02-367b-406d-a982-5c08f564588a",
+		"publisherDisplayName": "wraith13",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1653826638823
+	}
+}

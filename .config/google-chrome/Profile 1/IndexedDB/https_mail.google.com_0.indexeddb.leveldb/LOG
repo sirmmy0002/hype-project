@@ -1,0 +1,6 @@
+2022/06/02-08:56:32.169 1c064 Reusing MANIFEST /home/sirmmy/.config/google-chrome/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/02-08:56:32.169 1c064 Recovering log #3
+2022/06/02-08:56:32.180 1c064 Reusing old log /home/sirmmy/.config/google-chrome/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2022/06/02-08:57:50.199 1c0fb Level-0 table #5: started
+2022/06/02-08:57:50.314 1c0fb Level-0 table #5: 2059400 bytes OK
+2022/06/02-08:57:50.380 1c0fb Delete type=0 #3

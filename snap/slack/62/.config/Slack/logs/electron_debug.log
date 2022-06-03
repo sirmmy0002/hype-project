@@ -1,0 +1,253 @@
+[10972:0528/162146.620422:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[10972:0528/162148.116765:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[10972:0528/162148.304065:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.166" (uid=1000 pid=10972 comm="/snap/slack/62/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=735 comm="/lib/systemd/systemd-logind " label="unconfined")
+[10972:0528/162149.458635:ERROR:nss_util.cc(169)] Error initializing NSS with a persistent database (sql:/home/sirmmy/.pki/nssdb): NSS error code: -8174
+[10972:0528/162240.506505:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[10972:0528/162240.506665:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[18045:0528/175217.370926:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[18045:0528/175218.389197:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[18045:0528/175218.389324:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[18045:0528/175218.562123:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.142" (uid=1000 pid=18045 comm="/snap/slack/62/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=739 comm="/lib/systemd/systemd-logind " label="unconfined")
+[18045:0528/175219.303848:ERROR:nss_util.cc(169)] Error initializing NSS with a persistent database (sql:/home/sirmmy/.pki/nssdb): NSS error code: -8174
+[18045:0528/175224.869452:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[18045:0528/175224.969491:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[18045:0528/175224.969712:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[18084:0528/175838.577449:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 5
+[18084:0528/182524.916406:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 3
+[2858:0528/184651.202289:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[2858:0528/184652.304269:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2858:0528/184652.304389:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2858:0528/184652.514634:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.103" (uid=1000 pid=2858 comm="/snap/slack/62/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=749 comm="/lib/systemd/systemd-logind " label="unconfined")
+[2858:0528/184658.041553:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2858:0528/184658.135601:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2858:0528/184658.135753:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2858:0528/184708.032781:ERROR:nss_util.cc(169)] Error initializing NSS with a persistent database (sql:/home/sirmmy/.pki/nssdb): NSS error code: -8174
+[5250:0528/200643.652620:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[5250:0528/200644.889764:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5250:0528/200644.889923:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5250:0528/200645.066660:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.108" (uid=1000 pid=5250 comm="/snap/slack/62/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=757 comm="/lib/systemd/systemd-logind " label="unconfined")
+[5250:0528/200645.767462:ERROR:nss_util.cc(169)] Error initializing NSS with a persistent database (sql:/home/sirmmy/.pki/nssdb): NSS error code: -8174
+[5250:0528/200651.672143:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5250:0528/200651.826669:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5250:0528/200651.826816:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5520:0528/212539.297345:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[5520:0528/212540.456417:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5520:0528/212540.456589:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5520:0528/212540.630244:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.138" (uid=1000 pid=5520 comm="/snap/slack/62/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=755 comm="/lib/systemd/systemd-logind " label="unconfined")
+[5520:0528/212541.493061:ERROR:nss_util.cc(169)] Error initializing NSS with a persistent database (sql:/home/sirmmy/.pki/nssdb): NSS error code: -8174
+[5520:0528/212546.991588:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5520:0528/212547.145780:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5520:0528/212547.146016:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2314:0528/221525.683413:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[2314:0528/221526.791638:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2314:0528/221526.791783:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2314:0528/221527.005125:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.109" (uid=1000 pid=2314 comm="/snap/slack/62/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=738 comm="/lib/systemd/systemd-logind " label="unconfined")
+[2314:0528/221533.170378:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2314:0528/221533.322034:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2314:0528/221533.322179:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2314:0528/221625.082858:ERROR:nss_util.cc(169)] Error initializing NSS with a persistent database (sql:/home/sirmmy/.pki/nssdb): NSS error code: -8174
+[5914:0529/160128.318994:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[5914:0529/160129.392458:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5914:0529/160129.392580:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5914:0529/160129.596719:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.122" (uid=1000 pid=5914 comm="/snap/slack/62/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=737 comm="/lib/systemd/systemd-logind " label="unconfined")
+[5914:0529/160130.920960:ERROR:nss_util.cc(169)] Error initializing NSS with a persistent database (sql:/home/sirmmy/.pki/nssdb): NSS error code: -8174
+[5914:0529/160136.048271:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5914:0529/160136.182690:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5914:0529/160136.182842:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[29490:0529/172934.902354:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[29490:0529/172935.132667:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[29490:0529/172935.132797:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[29490:0529/172935.190149:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.220" (uid=1000 pid=29490 comm="/snap/slack/62/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=737 comm="/lib/systemd/systemd-logind " label="unconfined")
+[29490:0529/172936.642182:ERROR:nss_util.cc(169)] Error initializing NSS with a persistent database (sql:/home/sirmmy/.pki/nssdb): NSS error code: -8174
+[29490:0529/172940.180288:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[29490:0529/172940.280811:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[29490:0529/172940.281033:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4643:0530/090940.974806:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[4643:0530/090942.242314:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4643:0530/090942.242561:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4643:0530/090942.434716:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.119" (uid=1000 pid=4643 comm="/snap/slack/62/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=751 comm="/lib/systemd/systemd-logind " label="unconfined")
+[4643:0530/090943.344415:ERROR:nss_util.cc(169)] Error initializing NSS with a persistent database (sql:/home/sirmmy/.pki/nssdb): NSS error code: -8174
+[4643:0530/090950.179776:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4643:0530/090950.292672:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4643:0530/090950.292812:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4682:0530/091013.921138:WARNING:spdy_session.cc(3273)] Received RST for invalid stream3
+[4682:0530/091013.922565:WARNING:spdy_session.cc(3273)] Received RST for invalid stream1
+[4682:0530/091014.001990:ERROR:ssl_client_socket_impl.cc(997)] handshake failed; returned -1, SSL error code 1, net_error -101
+[4682:0530/091024.478751:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 3
+[4682:0530/091150.838329:WARNING:spdy_session.cc(3273)] Received RST for invalid stream9
+[4682:0530/091202.335949:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 5
+[4682:0530/091202.336073:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 7
+[4682:0530/091202.336149:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 9
+[4682:0530/091202.336220:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 11
+[4682:0530/091202.336291:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 13
+[4682:0530/091202.336361:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 15
+[4682:0530/091202.336431:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 17
+[4682:0530/091202.336501:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 19
+[4682:0530/091202.336569:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 21
+[4682:0530/091202.336640:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 23
+[4682:0530/091202.336707:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 25
+[4682:0530/091202.336775:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 27
+[4682:0530/091202.336844:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 29
+[4682:0530/091202.336912:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 31
+[4682:0530/091202.336984:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 33
+[4682:0530/091202.337090:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 35
+[4682:0530/091202.337162:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 37
+[4682:0530/091202.337230:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 39
+[4682:0530/091202.337298:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 41
+[4682:0530/091202.337370:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 43
+[4682:0530/091202.337437:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 45
+[4682:0530/091202.337505:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 47
+[4682:0530/091202.337572:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 49
+[4682:0530/091202.337644:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 51
+[4682:0530/091202.337711:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 53
+[4682:0530/091202.337779:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 55
+[4682:0530/091202.337847:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 57
+[4682:0530/091202.337914:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 59
+[4682:0530/091202.337982:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 61
+[4682:0530/091202.338049:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 63
+[4682:0530/091202.338140:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 65
+[4682:0530/091202.338248:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 67
+[4682:0530/091202.370299:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 69
+[4682:0530/091202.370414:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 71
+[4682:0530/091202.370482:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 73
+[4682:0530/091202.370546:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 75
+[4682:0530/091202.370610:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 77
+[4682:0530/091202.370674:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 79
+[4682:0530/091202.370737:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 81
+[4682:0530/091202.370801:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 83
+[4682:0530/091202.370864:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 85
+[4682:0530/091202.370928:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 87
+[4682:0530/091202.370990:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 89
+[4682:0530/091202.371052:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 91
+[4682:0530/091202.371115:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 93
+[4682:0530/091202.371177:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 95
+[4682:0530/091202.371239:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 97
+[4682:0530/091202.371351:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 99
+[4682:0530/091202.371448:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 101
+[4682:0530/091202.371612:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 103
+[4682:0530/091202.371735:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 105
+[4682:0530/091202.371845:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 107
+[4682:0530/091202.371958:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 109
+[4682:0530/091202.372078:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 111
+[4682:0530/091202.372197:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 113
+[4682:0530/091202.372317:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 115
+[4682:0530/091202.372436:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 117
+[4682:0530/091202.372558:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 119
+[4682:0530/091202.372706:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 121
+[4682:0530/091202.372845:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 123
+[4682:0530/091202.372962:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 125
+[4682:0530/091202.373085:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 127
+[4682:0530/091202.373206:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 129
+[4682:0530/091202.373320:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 131
+[4682:0530/091202.373534:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 133
+[4682:0530/091202.373667:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 135
+[4682:0530/091202.373777:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 137
+[4682:0530/091202.373853:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 139
+[4682:0530/091202.373922:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 141
+[4682:0530/091202.373991:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 143
+[4682:0530/091202.374059:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 145
+[4682:0530/091202.374127:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 147
+[4682:0530/091202.374196:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 149
+[4682:0530/091202.374264:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 151
+[4682:0530/091202.374332:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 153
+[4682:0530/091202.374400:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 155
+[4682:0530/091202.374470:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 157
+[4682:0530/091202.374537:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 159
+[4682:0530/091202.374606:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 161
+[4682:0530/091202.374674:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 163
+[52805:0531/144132.810049:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[52805:0531/144133.744537:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[52805:0531/144133.744659:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[52805:0531/144133.918262:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.484" (uid=1000 pid=52805 comm="/snap/slack/62/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=739 comm="/lib/systemd/systemd-logind " label="unconfined")
+[52805:0531/144134.448073:ERROR:nss_util.cc(169)] Error initializing NSS with a persistent database (sql:/home/sirmmy/.pki/nssdb): NSS error code: -8174
+[52805:0531/144141.077408:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[52805:0531/144141.201843:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[52805:0531/144141.202068:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[52844:0601/101240.849697:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 1
+[52805:0601/101252.214617:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[52805:0601/101253.061909:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[52805:0601/101253.062162:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[52805:0601/220358.819634:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[52805:0601/220359.133261:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[52805:0601/220359.133399:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[52844:0602/091852.449935:WARNING:spdy_session.cc(3273)] Received RST for invalid stream1
+[169902:0603/081946.343743:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[169902:0603/081946.576624:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[169902:0603/081946.576753:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[169902:0603/081946.637507:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1027" (uid=1000 pid=169902 comm="/snap/slack/62/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=739 comm="/lib/systemd/systemd-logind " label="unconfined")
+[169902:0603/081947.268013:ERROR:nss_util.cc(169)] Error initializing NSS with a persistent database (sql:/home/sirmmy/.pki/nssdb): NSS error code: -8174
+[169902:0603/081951.167207:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[169902:0603/081951.316162:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[169902:0603/081951.316300:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[169958:0603/081954.616459:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 43
+[169958:0603/081954.851246:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 7
+[169958:0603/081954.886566:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 9
+[169958:0603/081955.296752:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 11
+[169958:0603/081955.296984:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 13
+[169958:0603/081955.297050:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 15
+[169958:0603/081955.297107:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 17
+[169958:0603/081955.297162:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 19
+[169958:0603/081955.297229:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 21
+[169958:0603/081955.297399:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 23
+[169958:0603/081955.297460:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 25
+[169958:0603/081955.297513:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 27
+[169958:0603/081955.297568:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 29
+[169958:0603/081955.297621:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 31
+[169958:0603/081955.297797:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 33
+[169958:0603/081955.297855:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 35
+[169958:0603/081955.297911:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 37
+[169958:0603/081955.298001:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 39
+[169958:0603/081955.298071:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 41
+[169958:0603/081955.298125:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 43
+[169958:0603/081955.298177:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 45
+[169958:0603/081955.298228:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 47
+[169958:0603/081955.298280:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 49
+[169958:0603/081955.298333:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 51
+[169958:0603/081955.298448:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 53
+[169958:0603/081955.298603:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 55
+[169958:0603/081955.298661:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 57
+[169958:0603/081955.298714:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 59
+[169958:0603/081955.298765:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 61
+[169958:0603/081955.299235:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 63
+[169958:0603/081955.299297:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 65
+[169958:0603/081955.299349:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 67
+[169958:0603/081955.299401:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 69
+[169958:0603/081955.299455:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 71
+[169958:0603/081955.299506:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 73
+[169958:0603/081955.299556:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 75
+[169958:0603/081955.299606:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 77
+[169958:0603/081955.299658:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 79
+[169958:0603/081955.299709:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 81
+[169958:0603/081955.299760:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 83
+[169958:0603/081955.299887:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 85
+[169958:0603/081955.299952:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 87
+[169958:0603/081955.300004:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 89
+[169958:0603/081955.300054:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 91
+[169958:0603/081955.300105:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 93
+[169958:0603/081955.300156:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 95
+[169958:0603/081955.300324:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 97
+[169958:0603/081955.300382:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 99
+[169958:0603/081955.300435:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 101
+[169958:0603/081955.300485:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 103
+[169958:0603/081955.300537:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 105
+[169958:0603/081955.300589:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 107
+[169958:0603/081955.300641:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 109
+[169958:0603/081955.300692:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 111
+[169958:0603/081955.300743:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 113
+[169958:0603/081955.300795:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 115
+[169958:0603/081955.300846:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 117
+[169958:0603/081955.300957:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 119
+[169958:0603/081955.301013:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 121
+[169958:0603/081955.301065:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 123
+[169958:0603/081955.301134:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 125
+[169958:0603/081955.555884:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 127
+[169958:0603/081955.556299:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 129
+[169958:0603/081955.556357:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 131
+[169958:0603/081955.556413:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 133
+[169958:0603/081955.556478:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 135
+[169958:0603/081955.759521:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 137
+[169958:0603/081955.759578:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 139
+[169958:0603/081955.759612:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 141
+[169958:0603/081955.759644:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 143
+[169958:0603/081955.759677:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 145
+[169958:0603/081955.759708:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 147

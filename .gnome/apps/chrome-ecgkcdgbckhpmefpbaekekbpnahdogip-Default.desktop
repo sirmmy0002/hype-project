@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Netflix Kenya - Watch TV Shows Online, Watch Movies Online
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=ecgkcdgbckhpmefpbaekekbpnahdogip
+Icon=chrome-ecgkcdgbckhpmefpbaekekbpnahdogip-Default
+StartupWMClass=crx_ecgkcdgbckhpmefpbaekekbpnahdogip
+OnlyShowIn=Old;

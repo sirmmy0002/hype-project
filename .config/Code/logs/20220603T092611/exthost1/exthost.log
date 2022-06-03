@@ -1,0 +1,37 @@
+[2022-06-03 09:26:14.288] [exthost] [info] Extension host with pid 175102 started
+[2022-06-03 09:26:14.288] [exthost] [info] Skipping acquiring lock for /home/sirmmy/.config/Code/User/workspaceStorage/23eb0759f9e36d764993954025b90d3a.
+[2022-06-03 09:26:14.573] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-06-03 09:26:14.617] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-03 09:26:14.621] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-03 09:26:14.625] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-03 09:26:14.648] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+[2022-06-03 09:26:14.721] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2022-06-03 09:26:14.737] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-06-03 09:26:14.776] [exthost] [info] ExtensionService#_doActivateExtension spywhere.guides, startup: true, activationEvent: '*'
+[2022-06-03 09:26:14.939] [exthost] [info] ExtensionService#_doActivateExtension wraith13.zoombar-vscode, startup: true, activationEvent: '*'
+[2022-06-03 09:26:14.995] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-06-03 09:26:15.196] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-03 09:26:15.261] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-03 09:26:15.600] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-06-03 09:26:15.636] [exthost] [info] Eager extensions activated
+[2022-06-03 09:26:15.683] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 09:26:15.693] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 09:26:15.702] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 09:26:15.720] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 09:26:15.851] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 09:26:15.887] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 09:26:18.055] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-06-03 09:26:20.571] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-03 09:26:20.690] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-06-03 09:26:21.034] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-03 09:26:21.039] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-03 09:26:21.065] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-03 09:26:23.044] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-03 09:29:02.159] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-03 09:33:40.125] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-03 09:34:42.732] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-03 09:37:20.831] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-03 09:40:20.319] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-03 10:11:07.396] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-03 10:16:01.669] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-06-03 10:16:01.755] [exthost] [info] Extension host with pid 175102 exiting with code 0

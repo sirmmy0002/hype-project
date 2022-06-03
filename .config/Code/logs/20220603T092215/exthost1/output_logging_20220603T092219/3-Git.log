@@ -1,0 +1,15 @@
+[2022-06-03T06:22:21.204Z] Validating found git in: git
+[2022-06-03T06:22:21.380Z] Using git  from git
+[2022-06-03T06:22:21.442Z] > git rev-parse --show-toplevel [20ms]
+[2022-06-03T06:22:21.462Z] > git rev-parse --git-dir --git-common-dir [3ms]
+[2022-06-03T06:22:21.473Z] Open repository: /home/sirmmy/Development/code/prework/phase-0/phase-0-css-intro-lab
+[2022-06-03T06:22:21.495Z] > git status -z -uall [6ms]
+[2022-06-03T06:22:21.509Z] > git symbolic-ref --short HEAD [4ms]
+[2022-06-03T06:22:21.526Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-06-03T06:22:21.991Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [453ms]
+[2022-06-03T06:22:22.055Z] > git remote --verbose [499ms]
+[2022-06-03T06:22:22.074Z] > git config --get commit.template [3ms]
+[2022-06-03T06:22:22.728Z] > git show --textconv :style.css [313ms]
+[2022-06-03T06:22:22.728Z] > git check-ignore -v -z --stdin [20ms]
+[2022-06-03T06:22:22.770Z] > git ls-files --stage -- /home/sirmmy/Development/code/prework/phase-0/phase-0-css-intro-lab/style.css [339ms]
+[2022-06-03T06:22:22.802Z] > git cat-file -s ce26bcdfcfd780134d60a5916e352c780cd4ccae [18ms]

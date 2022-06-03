@@ -1,0 +1,11 @@
+[2022-06-02 11:27:04.722] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-02 11:27:04.738] [main] [info] update#setState idle
+[2022-06-02 11:27:04.811] [main] [info] ExtensionHostStarterWorker created
+[2022-06-02 11:27:05.990] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-02 11:27:06.448] [main] [info] Starting extension host with pid 119444 (fork() took 34 ms).
+[2022-06-02 11:27:06.451] [main] [info] ExtensionHostStarterWorker.start() took 40 ms.
+[2022-06-02 11:27:34.743] [main] [info] update#setState checking for updates
+[2022-06-02 11:27:35.039] [main] [info] update#setState idle
+[2022-06-02 11:58:49.858] [main] [info] Waiting for extension host with pid 119444 to exit.
+[2022-06-02 11:58:49.919] [main] [info] Extension host with pid 119444 exited with code: 0, signal: null.
+[2022-06-02 11:58:50.258] [main] [warning] [storage main] detected slow close() operation: Time: 414ms, DB size: 36864b, Large Keys: terminal.integrated.bufferState:8770, __$__targetStorageMarker:1430, workbench.scm.views.state:795, memento/workbench.parts.editor:703, workbench.view.debug.state:528

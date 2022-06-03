@@ -1,0 +1,14 @@
+[2022-06-02 15:39:16.634] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-02 15:39:16.646] [main] [info] update#setState idle
+[2022-06-02 15:39:16.711] [main] [info] ExtensionHostStarterWorker created
+[2022-06-02 15:39:17.745] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-02 15:39:18.226] [main] [info] Starting extension host with pid 135355 (fork() took 21 ms).
+[2022-06-02 15:39:18.232] [main] [info] ExtensionHostStarterWorker.start() took 32 ms.
+[2022-06-02 15:39:46.653] [main] [info] update#setState checking for updates
+[2022-06-02 15:39:46.893] [main] [info] update#setState idle
+[2022-06-02 16:39:46.659] [main] [info] update#setState checking for updates
+[2022-06-02 16:39:50.428] [main] [info] update#setState idle
+[2022-06-02 17:27:31.013] [main] [info] Waiting for extension host with pid 135355 to exit.
+[2022-06-02 17:27:31.117] [main] [info] Extension host with pid 135355 exited with code: 0, signal: null.
+[2022-06-02 17:27:31.447] [main] [warning] [storage main] detected slow close() operation: Time: 441ms, DB size: 159744b, Large Keys: iconThemeData:88500, colorThemeData:6964, workbench.activity.placeholderViewlets:4090, __$__targetStorageMarker:2866, memento/experiment.service.memento:2265
+[2022-06-02 17:27:31.493] [main] [warning] [storage main] detected slow close() operation: Time: 487ms, DB size: 45056b, Large Keys: terminal.integrated.bufferState:12849, memento/workbench.editors.files.textFileEditor:2921, history.entries:1975, __$__targetStorageMarker:1514, workbench.scm.views.state:795

@@ -1,0 +1,2 @@
+[2022-06-02 18:48:15.258] [sharedprocess] [info] Starting worker process with pid 152130 (type: fileWatcher, window: 1).
+[2022-06-02 19:45:53.816] [sharedprocess] [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}

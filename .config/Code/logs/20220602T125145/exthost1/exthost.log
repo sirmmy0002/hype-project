@@ -1,0 +1,170 @@
+[2022-06-02 12:51:48.490] [exthost] [info] Extension host with pid 123528 started
+[2022-06-02 12:51:48.491] [exthost] [info] Skipping acquiring lock for /home/sirmmy/.config/Code/User/workspaceStorage/62fe4e6452cfb02a36e0693364f7d54f.
+[2022-06-02 12:51:48.951] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-06-02 12:51:48.991] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-02 12:51:49.008] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-02 12:51:49.012] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-02 12:51:49.017] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+[2022-06-02 12:51:49.040] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2022-06-02 12:51:49.043] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-06-02 12:51:49.061] [exthost] [info] ExtensionService#_doActivateExtension spywhere.guides, startup: true, activationEvent: '*'
+[2022-06-02 12:51:49.271] [exthost] [info] ExtensionService#_doActivateExtension wraith13.zoombar-vscode, startup: true, activationEvent: '*'
+[2022-06-02 12:51:49.288] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-06-02 12:51:49.371] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-02 12:51:49.413] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-02 12:51:49.645] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-06-02 12:51:49.759] [exthost] [info] Eager extensions activated
+[2022-06-02 12:51:49.843] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 12:51:49.848] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 12:51:49.850] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 12:51:49.855] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 12:51:49.923] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 12:51:49.934] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 12:51:53.008] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-02 12:51:53.012] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-02 12:51:53.029] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-02 12:51:56.974] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-06-02 12:52:02.277] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 12:52:02.391] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-06-02 12:52:02.399] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-06-02 12:52:02.449] [exthost] [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-06-02 12:52:03.175] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-06-02 12:52:11.404] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 12:56:21.206] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 12:56:29.023] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 12:58:13.451] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:05:59.645] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:10:06.060] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:22:37.500] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:23:06.672] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:23:25.820] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:23:32.449] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:23:36.734] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:26:15.696] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:26:45.464] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:26:49.096] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:26:50.829] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:26:52.347] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:30:53.026] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:35:13.051] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:37:44.237] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:37:50.570] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:37:55.061] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:37:56.301] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:37:58.075] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:38:12.727] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:39:16.921] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:41:44.569] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:42:14.029] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:42:19.646] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:42:26.316] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:42:37.743] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:42:59.526] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:43:40.449] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:44:52.497] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:45:54.317] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:47:27.306] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-06-02 13:47:27.313] [exthost] [error] Error: Unable to find matching pair for < at char 1247
+    at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+    at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+    at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+    at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+    at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+    at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+    at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+    at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+    at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201227)
+    at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+    at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+    at Q.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:111153)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:135870
+    at we._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:126001)
+    at we.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:135846)
+    at s._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:86:13828)
+    at s._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:86:13512)
+    at s._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:86:12121)
+    at s._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:86:10843)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:86:8949
+    at m.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+    at E.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19001)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:34426
+    at m.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+    at E.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19001)
+    at r._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23582)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21116
+    at m.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+    at E.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+    at v.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15832)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14962
+    at Socket.R (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:13798)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-06-02 13:47:29.354] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-06-02 13:47:29.355] [exthost] [error] Error: Unable to find matching pair for < at char 1247
+    at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+    at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+    at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+    at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+    at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+    at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+    at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+    at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+    at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201227)
+    at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+    at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+    at Q.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:111153)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:135870
+    at we._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:126001)
+    at we.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:135846)
+    at s._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:86:13828)
+    at s._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:86:13512)
+    at s._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:86:12121)
+    at s._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:86:10843)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:86:8949
+    at m.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+    at E.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19001)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:34426
+    at m.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+    at E.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19001)
+    at r._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23582)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21116
+    at m.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+    at E.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+    at v.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15832)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14962
+    at Socket.R (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:13798)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-06-02 13:49:59.772] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:50:35.758] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:50:47.836] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:55:06.804] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:55:44.259] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:56:25.018] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:57:09.129] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:58:30.054] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 13:59:49.281] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 14:04:45.069] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 14:04:48.336] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 14:05:35.502] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 14:14:31.419] [exthost] [warning] TextEditor is closed/disposed
+[2022-06-02 14:16:15.046] [exthost] [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+[2022-06-02 14:27:49.942] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-06-02 14:27:49.996] [exthost] [warning] {"name":"Canceled"}
+[2022-06-02 14:27:49.998] [exthost] [info] Extension host with pid 123528 exiting with code 0

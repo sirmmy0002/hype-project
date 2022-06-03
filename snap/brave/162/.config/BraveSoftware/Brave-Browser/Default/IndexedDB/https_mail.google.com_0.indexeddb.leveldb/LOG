@@ -1,0 +1,15 @@
+2022/06/02-14:58:14.503 20aff Reusing MANIFEST /home/sirmmy/snap/brave/162/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/02-14:58:14.503 20aff Recovering log #10
+2022/06/02-14:58:14.509 20aff Reusing old log /home/sirmmy/snap/brave/162/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000010.log 
+2022/06/02-14:59:25.138 20ab1 Level-0 table #16: started
+2022/06/02-14:59:25.238 20ab1 Level-0 table #16: 1910834 bytes OK
+2022/06/02-14:59:25.282 20ab1 Delete type=0 #10
+2022/06/02-14:59:25.283 20ab1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/06/02-14:59:25.283 20ab1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x1a\x00\x00\x05' @ 6891 : 1
+2022/06/02-14:59:25.283 20ab1 Compacting 1@1 + 1@2 files
+2022/06/02-14:59:25.339 20ab1 Generated table #17@1: 120 keys, 46586 bytes
+2022/06/02-14:59:25.339 20ab1 Compacted 1@1 + 1@2 files => 46586 bytes
+2022/06/02-14:59:25.380 20ab1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/02-14:59:25.380 20ab1 Delete type=2 #13
+2022/06/02-14:59:25.381 20ab1 Delete type=2 #16
+2022/06/02-14:59:25.381 20ab1 Manual compaction at level-1 from '\x00\x1a\x00\x00\x05' @ 6891 : 1 .. (end); will stop at (end)

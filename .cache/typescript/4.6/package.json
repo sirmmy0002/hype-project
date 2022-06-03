@@ -1,0 +1,1 @@
+{"private":true,"dependencies":{"types-registry":"^0.1.594"},"devDependencies":{"@types/chai":"^4.3.1","@types/chai-dom":"^0.0.13","@types/chai-fs":"^2.0.2","@types/css-tree":"^1.0.7","@types/cssom":"^0.4.1","@types/jsdom":"^16.2.14","@types/mocha":"^9.1.1","@types/node":"^17.0.36"}}
